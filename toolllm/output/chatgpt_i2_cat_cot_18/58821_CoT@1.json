@@ -1,0 +1,362 @@
+{
+  "win": false,
+  "try_count": 1,
+  "trys": [
+    {
+      "chain": [
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 1,
+          "node_type": "Action",
+          "description": "carriers_detect_for_trackingmore_v2",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 2,
+          "node_type": "Action Input",
+          "description": "{\n  \"trackingnumber\": \"RB413450335SG\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'meta': {'code': 200, 'type': 'Success', 'message': 'Success'}, 'data': [{'name': '4PX', 'code': '4px'}, {'name': 'Global Cainiao', 'code': 'cainiao'}]}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 3,
+          "node_type": "Action",
+          "description": "packages_track_deprecated_for_trackingmore_v2",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 4,
+          "node_type": "Action Input",
+          "description": "{\n  \"carriercode\": \"4px\",\n  \"trackingnumber\": \"RB413450335SG\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 5,
+          "node_type": "Action",
+          "description": "latest_for_suivi_colis",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 6,
+          "node_type": "Action Input",
+          "description": "{\n  \"colisid\": \"RB413450335SG\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 7,
+          "node_type": "Action",
+          "description": "suivi_colis@Column1",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 8,
+          "node_type": "Action Input",
+          "description": "{}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"No such function name: suivi_colis@Column1\", \"response\": \"\"}",
+          "observation_code": 1,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 9,
+          "node_type": "Action",
+          "description": "carriers_list_for_trackingmore_v2",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 10,
+          "node_type": "Action Input",
+          "description": "{}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"Message error...\", \"response\": \"{'meta': {'code': 200, 'type': 'Success', 'message': 'Success'}, 'data': [{'name': 'DHL', 'code': 'dhl', 'phone': '', 'homepage': 'http://www.dhl.com/', 'type': 'express', 'picture': '//s.trackingmore.com/images/icons/express/dhl.png', 'country_code': 'DE', 'track_url': 'http://www.dhl.com/en/express/tracking.html?brand=DHL&AWB=******'}, {'name': 'UPS', 'code': 'ups', 'phone': '+1 800 742 5877', 'homepage': 'https://www.ups.com/us/en/Home.page', 'type': 'express', 'picture': '//s.trackingmore.com/images/icons/express/ups.png', 'country_code': 'US', 'track_url': 'https://www.ups.com/track?loc=en_US&tracknum=******&requester=WT/'}, {'name': 'Fedex', 'code': 'fedex', 'phone': '+1 800 247 4747', 'homepage': 'https://www.fedex.com', 'type': 'express', 'picture': '//s.trackingmore.com/images/icons/express/fedex.png', 'country_code': 'US', 'track_url': 'https://www.fedex.com/fedextrack/?trknbr=******'}, {'name': 'TNT', 'code': 'tnt', 'phone': '1 800 558 5555', 'homepage': '...",
+          "observation_code": 11,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 11,
+          "node_type": "Action",
+          "description": "Finish",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": true,
+          "finished": false,
+          "depth": 12,
+          "node_type": "Action Input",
+          "description": "{\n  \"return_type\": \"give_up_and_restart\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"response\":\"chose to give up and restart\"}",
+          "observation_code": 4,
+          "child_count": 0,
+          "expand_num": 0,
+          "io_state": {}
+        }
+      ],
+      "win": false
+    }
+  ],
+  "compare_candidates": [],
+  "forward_args": {
+    "single_chain_max_step": 18,
+    "pass_at": 1,
+    "answer": 1
+  },
+  "answer_generation": {
+    "valid_data": false,
+    "final_answer": "",
+    "function": [
+      {
+        "name": "get_track_info_for_pridnestrovie_post",
+        "description": "This is the subfunction for tool \"pridnestrovie_post\", you can use this tool.The description of this function is: \"get_track_info_for_pridnestrovie_post by track number\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "track_number": {
+              "type": "string",
+              "description": "",
+              "example_value": "RB413450335SG"
+            }
+          },
+          "required": [
+            "track_number"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "packages_track_deprecated_for_trackingmore_v2",
+        "description": "This is the subfunction for tool \"trackingmore_v2\", you can use this tool.The description of this function is: \"Get tracking information of specific package\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "carriercode": {
+              "type": "string",
+              "description": "Carrier code gotten from .../carriers/list or carriers/detect endpoint",
+              "example_value": "yunexpress"
+            },
+            "trackingnumber": {
+              "type": "string",
+              "description": "Tracking number of package",
+              "example_value": "YT2003521266065328"
+            },
+            "lang": {
+              "type": "string",
+              "description": "One of the following : en|cn|es|it|ru",
+              "example_value": "en"
+            }
+          },
+          "required": [
+            "carriercode",
+            "trackingnumber"
+          ],
+          "optional": [
+            "lang"
+          ]
+        }
+      },
+      {
+        "name": "carriers_detect_for_trackingmore_v2",
+        "description": "This is the subfunction for tool \"trackingmore_v2\", you can use this tool.The description of this function is: \"Detect carrier by providing tracking number\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "trackingnumber": {
+              "type": "string",
+              "description": "The tracking number of parcel",
+              "example_value": "YT2003521266065328"
+            }
+          },
+          "required": [
+            "trackingnumber"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "carriers_list_for_trackingmore_v2",
+        "description": "This is the subfunction for tool \"trackingmore_v2\", you can use this tool.The description of this function is: \"List all supported carriers\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "transactions_for_orderful",
+        "description": "This is the subfunction for tool \"orderful\", you can use this tool.The description of this function is: \"Get Transaction by ID\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "is_id": {
+              "type": "string",
+              "description": "Orderful Transaction ID",
+              "example_value": "8209520"
+            }
+          },
+          "required": [
+            "is_id"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "health_for_suivi_colis",
+        "description": "This is the subfunction for tool \"suivi_colis\", you can use this tool.The description of this function is: \"Get the API's health\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "latest_for_suivi_colis",
+        "description": "This is the subfunction for tool \"suivi_colis\", you can use this tool.The description of this function is: \"L'\u00e9tat courant (ie. le dernier \u00e9tat du colis).\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "colisid": {
+              "type": "string",
+              "description": "",
+              "example_value": "CA107308006SI"
+            }
+          },
+          "required": [
+            "colisid"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "all_for_suivi_colis",
+        "description": "This is the subfunction for tool \"suivi_colis\", you can use this tool.The description of this function is: \"Tout l'historique du colis depuis son envoi jusqu'au dernier \u00e9tat en cours.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "colisid": {
+              "type": "string",
+              "description": "",
+              "example_value": "CA107308006SI"
+            }
+          },
+          "required": [
+            "colisid"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "checkhealth_for_squake",
+        "description": "This is the subfunction for tool \"squake\", you can use this tool.",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "projects_for_squake",
+        "description": "This is the subfunction for tool \"squake\", you can use this tool.",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "Finish",
+        "description": "If you believe that you have obtained a result that can answer the task, please call this function to provide the final answer. Alternatively, if you recognize that you are unable to proceed with the task in the current state, call this function to restart. Remember: you must ALWAYS call this function at the end of your attempt, and the only part that will be shown to the user is the final answer, so it should contain sufficient information.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "return_type": {
+              "type": "string",
+              "enum": [
+                "give_answer",
+                "give_up_and_restart"
+              ]
+            },
+            "final_answer": {
+              "type": "string",
+              "description": "The final answer you want to give the user. You should have this field if \"return_type\"==\"give_answer\""
+            }
+          },
+          "required": [
+            "return_type"
+          ]
+        }
+      }
+    ],
+    "query_count": 6,
+    "total_tokens": 8890,
+    "train_messages": [],
+    "chain": [],
+    "query": "I want to track a package with the tracking number RB413450335SG. Can you provide me with the carrier information for this package using the TrackingMore_v2 API? Additionally, fetch the latest update on the package's location and status using the suivi-colis API."
+  }
+}

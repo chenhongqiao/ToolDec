@@ -1,0 +1,197 @@
+{
+  "win": false,
+  "try_count": 1,
+  "trys": [
+    {
+      "chain": [
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 1,
+          "node_type": "Action",
+          "description": "youtube",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 2,
+          "node_type": "Action Input",
+          "description": "{}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'message': 'This endpoint is disabled for your subscription'}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 3,
+          "node_type": "Action",
+          "description": "Finish",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": true,
+          "finished": false,
+          "depth": 4,
+          "node_type": "Action Input",
+          "description": "{\n  \"return_type\": \"give_up_and_restart\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"response\":\"chose to give up and restart\"}",
+          "observation_code": 4,
+          "child_count": 0,
+          "expand_num": 0,
+          "io_state": {}
+        }
+      ],
+      "win": false
+    }
+  ],
+  "compare_candidates": [],
+  "forward_args": {
+    "single_chain_max_step": 18,
+    "pass_at": 1,
+    "answer": 1
+  },
+  "answer_generation": {
+    "valid_data": false,
+    "final_answer": "",
+    "function": [
+      {
+        "name": "go_for_youtube",
+        "description": "This is the subfunction for tool \"youtube\", you can use this tool.The description of this function is: \"Video converter\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "text_to_speech_for_text_to_speech_v2",
+        "description": "This is the subfunction for tool \"text_to_speech_v2\", you can use this tool.The description of this function is: \"text_to_speech_for_text_to_speech_v2 Voice Reader\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "lang": {
+              "type": "string",
+              "description": "Speech Language",
+              "example_value": "en"
+            },
+            "speed": {
+              "type": "string",
+              "description": "between `0.1` and `1.0`",
+              "example_value": "0.5"
+            },
+            "text": {
+              "type": "string",
+              "description": "Text",
+              "example_value": "How are you?"
+            },
+            "ssml": {
+              "type": "string",
+              "description": "SSML\n\n*At least one of the `text` or `ssml` parameters is required.*"
+            }
+          },
+          "required": [
+            "lang"
+          ],
+          "optional": [
+            "speed",
+            "text",
+            "ssml"
+          ]
+        }
+      },
+      {
+        "name": "t2g_kurs_check_for_words_world",
+        "description": "This is the subfunction for tool \"words_world\", you can use this tool.The description of this function is: \"Kurs check of IDR to another valuta\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "date": {
+              "type": "string",
+              "description": ""
+            },
+            "valuta": {
+              "type": "string",
+              "description": ""
+            }
+          },
+          "required": [
+            "date",
+            "valuta"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "generate_avatar_for_avatar_io_modern_avatar_placeholder_api",
+        "description": "This is the subfunction for tool \"avatar_io_modern_avatar_placeholder_api\", you can use this tool.The description of this function is: \"Generates the desired avatar and returns the image to the client.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "search_for_github_repos",
+        "description": "This is the subfunction for tool \"github_repos\", you can use this tool.The description of this function is: \"search_for_github_repos for public repositories of an user\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "user": {
+              "type": "string",
+              "description": "",
+              "example_value": "samuk-a"
+            }
+          },
+          "required": [
+            "user"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "Finish",
+        "description": "If you believe that you have obtained a result that can answer the task, please call this function to provide the final answer. Alternatively, if you recognize that you are unable to proceed with the task in the current state, call this function to restart. Remember: you must ALWAYS call this function at the end of your attempt, and the only part that will be shown to the user is the final answer, so it should contain sufficient information.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "return_type": {
+              "type": "string",
+              "enum": [
+                "give_answer",
+                "give_up_and_restart"
+              ]
+            },
+            "final_answer": {
+              "type": "string",
+              "description": "The final answer you want to give the user. You should have this field if \"return_type\"==\"give_answer\""
+            }
+          },
+          "required": [
+            "return_type"
+          ]
+        }
+      }
+    ],
+    "query_count": 2,
+    "total_tokens": 2215,
+    "train_messages": [],
+    "chain": [],
+    "query": "I'm planning a hiking trip with my friends and we need some hiking trails recommendations in the area. Can you provide us with a list of popular hiking trails? Additionally, we want to track our hiking distance and time. Is there an app we can use for that? Lastly, we need a text-to-speech service to read out the hiking directions."
+  }
+}

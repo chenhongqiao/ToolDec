@@ -1,0 +1,361 @@
+{
+  "win": false,
+  "try_count": 1,
+  "trys": [
+    {
+      "chain": [
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 1,
+          "node_type": "Action",
+          "description": "songs_list_artist_top_tracks_deprecated_for_shazam",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 2,
+          "node_type": "Action Input",
+          "description": "{\n  \"is_id\": \"31475337\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 3,
+          "node_type": "Action",
+          "description": "songs_list_artist_top_tracks_deprecated_for_shazam",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 4,
+          "node_type": "Action Input",
+          "description": "{\n  \"is_id\": \"32056957\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 5,
+          "node_type": "Action",
+          "description": "songs_list_artist_top_tracks_deprecated_for_shazam",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 6,
+          "node_type": "Action Input",
+          "description": "{\n  \"is_id\": \"118\",\n  \"locale\": \"en-US\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 7,
+          "node_type": "Action",
+          "description": "songs_list_artist_top_tracks_deprecated_for_shazam",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 8,
+          "node_type": "Action Input",
+          "description": "{\n  \"is_id\": \"118\",\n  \"locale\": \"en\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 9,
+          "node_type": "Action",
+          "description": "songs_list_artist_top_tracks_deprecated_for_shazam",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 10,
+          "node_type": "Action Input",
+          "description": "{\n  \"is_id\": \"144\",\n  \"locale\": \"en\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 11,
+          "node_type": "Action",
+          "description": "songs_list_artist_top_tracks_deprecated_for_shazam",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 12,
+          "node_type": "Action Input",
+          "description": "{\n  \"is_id\": \"173\",\n  \"locale\": \"en\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 13,
+          "node_type": "Action",
+          "description": "songs_list_artist_top_tracks_deprecated_for_shazam",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 14,
+          "node_type": "Action Input",
+          "description": "{\n  \"is_id\": \"527306\",\n  \"locale\": \"en\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 15,
+          "node_type": "Action",
+          "description": "songs_list_artist_top_tracks_deprecated_for_shazam",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 16,
+          "node_type": "Action Input",
+          "description": "{\n  \"is_id\": \"1297\",\n  \"locale\": \"en\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 17,
+          "node_type": "Action",
+          "description": "songs_list_artist_top_tracks_deprecated_for_shazam",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": true,
+          "finished": false,
+          "depth": 18,
+          "node_type": "Action Input",
+          "description": "{\n  \"is_id\": \"9452\",\n  \"locale\": \"en\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 0,
+          "expand_num": 0,
+          "io_state": {}
+        }
+      ],
+      "win": false
+    }
+  ],
+  "compare_candidates": [],
+  "forward_args": {
+    "single_chain_max_step": 18,
+    "pass_at": 1,
+    "answer": 1
+  },
+  "answer_generation": {
+    "valid_data": false,
+    "final_answer": "",
+    "function": [
+      {
+        "name": "songs_list_artist_top_tracks_deprecated_for_shazam",
+        "description": "This is the subfunction for tool \"shazam\", you can use this tool.The description of this function is: \"List top tracks of specific artist\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "is_id": {
+              "type": "string",
+              "description": "The id field inside artists json object returned from .../songs/detect or .../search endpoint",
+              "example_value": "40008598"
+            },
+            "locale": {
+              "type": "string",
+              "description": "The language code",
+              "example_value": "en-US"
+            }
+          },
+          "required": [
+            "is_id"
+          ],
+          "optional": [
+            "locale"
+          ]
+        }
+      },
+      {
+        "name": "songs_get_related_artist_for_shazam",
+        "description": "This is the subfunction for tool \"shazam\", you can use this tool.The description of this function is: \"Get artist related to a song\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "is_id": {
+              "type": "string",
+              "description": "The value of 'songs->id' field returned from .../shazam-songs/get-details endpoint",
+              "example_value": "1217912247"
+            },
+            "l": {
+              "type": "string",
+              "description": "The language code",
+              "example_value": "en-US"
+            }
+          },
+          "required": [
+            "is_id"
+          ],
+          "optional": [
+            "l"
+          ]
+        }
+      },
+      {
+        "name": "songs_v2_get_details_for_shazam",
+        "description": "This is the subfunction for tool \"shazam\", you can use this tool.The description of this function is: \"Get details information of specific song\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "is_id": {
+              "type": "string",
+              "description": "The value of 'songs->id' field returned from .../shazam-songs/get-details endpoint",
+              "example_value": "1217912247"
+            },
+            "l": {
+              "type": "string",
+              "description": "The language code",
+              "example_value": "en-US"
+            }
+          },
+          "required": [
+            "is_id"
+          ],
+          "optional": [
+            "l"
+          ]
+        }
+      },
+      {
+        "name": "chlyricdirect_artist_michael_20jackson_song_bad_for_chart_lyrics",
+        "description": "This is the subfunction for tool \"chart_lyrics\", you can use this tool.The description of this function is: \"Sample API request to search Lyrics\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "Finish",
+        "description": "If you believe that you have obtained a result that can answer the task, please call this function to provide the final answer. Alternatively, if you recognize that you are unable to proceed with the task in the current state, call this function to restart. Remember: you must ALWAYS call this function at the end of your attempt, and the only part that will be shown to the user is the final answer, so it should contain sufficient information.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "return_type": {
+              "type": "string",
+              "enum": [
+                "give_answer",
+                "give_up_and_restart"
+              ]
+            },
+            "final_answer": {
+              "type": "string",
+              "description": "The final answer you want to give the user. You should have this field if \"return_type\"==\"give_answer\""
+            }
+          },
+          "required": [
+            "return_type"
+          ]
+        }
+      }
+    ],
+    "query_count": 9,
+    "total_tokens": 11934,
+    "train_messages": [],
+    "chain": [],
+    "query": "I'm a music enthusiast and I'm looking for new songs to add to my playlist. Can you suggest the top tracks of various artists across different genres? It would be awesome if you could also provide me with random quotes related to music."
+  }
+}

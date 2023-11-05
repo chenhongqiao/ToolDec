@@ -1,0 +1,440 @@
+{
+  "win": false,
+  "try_count": 1,
+  "trys": [
+    {
+      "chain": [
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 1,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 2,
+          "node_type": "Action",
+          "description": "movies_news_recent_get_for_movies_news",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 3,
+          "node_type": "Action Input",
+          "description": "{}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"[{'title': 'How Mission: Impossible \\u2013 Rogue Nation Created A New Chapter For Ethan Hunt \\u2013 And Tom Cruise', 'date': 'Tue, 27 Jun 2023 13:00:01 +0000', 'description': 'Welcome to the team, Ilsa Faust.', 'image': 'https://www.slashfilm.com/img/gallery/how-mission-impossible-rogue-nation-created-a-new-chapter-for-ethan-hunt-and-tom-cruise/intro-1687796095.jpg', 'link': 'https://www.slashfilm.com/1323395/mission-impossible-rogue-nation-created-new-chapter-for-ethan-hunt-and-tom-cruise/'}, {'title': 'SAW X Logo Revealed and a Trailer is Coming This Summer', 'date': 'Tue, 27 Jun 2023 13:00:00 +0000', 'description': 'Lionsgate is getting ready to ramp up the marketing for director Kevin Greutert\\u2019s Saw X. Yes, there is a tenth Saw movie coming, and all of the official social media channels for the franchise have shared the first logo.', 'image': 'https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/66063f7a-2bbd-44ad-b504-5ae1b12a6575/saw-x-logo-revealed-and-...",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 4,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 5,
+          "node_type": "Action",
+          "description": "movies_news_recent_get_for_movies_news",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 6,
+          "node_type": "Action Input",
+          "description": "{}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"[{'title': 'How Mission: Impossible \\u2013 Rogue Nation Created A New Chapter For Ethan Hunt \\u2013 And Tom Cruise', 'date': 'Tue, 27 Jun 2023 13:00:01 +0000', 'description': 'Welcome to the team, Ilsa Faust.', 'image': 'https://www.slashfilm.com/img/gallery/how-mission-impossible-rogue-nation-created-a-new-chapter-for-ethan-hunt-and-tom-cruise/intro-1687796095.jpg', 'link': 'https://www.slashfilm.com/1323395/mission-impossible-rogue-nation-created-new-chapter-for-ethan-hunt-and-tom-cruise/'}, {'title': 'SAW X Logo Revealed and a Trailer is Coming This Summer', 'date': 'Tue, 27 Jun 2023 13:00:00 +0000', 'description': 'Lionsgate is getting ready to ramp up the marketing for director Kevin Greutert\\u2019s Saw X. Yes, there is a tenth Saw movie coming, and all of the official social media channels for the franchise have shared the first logo.', 'image': 'https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/66063f7a-2bbd-44ad-b504-5ae1b12a6575/saw-x-logo-revealed-and-...",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 7,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 8,
+          "node_type": "Action",
+          "description": "movies_news_recent_get_for_movies_news",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 9,
+          "node_type": "Action Input",
+          "description": "{}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"[{'title': 'How Mission: Impossible \\u2013 Rogue Nation Created A New Chapter For Ethan Hunt \\u2013 And Tom Cruise', 'date': 'Tue, 27 Jun 2023 13:00:01 +0000', 'description': 'Welcome to the team, Ilsa Faust.', 'image': 'https://www.slashfilm.com/img/gallery/how-mission-impossible-rogue-nation-created-a-new-chapter-for-ethan-hunt-and-tom-cruise/intro-1687796095.jpg', 'link': 'https://www.slashfilm.com/1323395/mission-impossible-rogue-nation-created-new-chapter-for-ethan-hunt-and-tom-cruise/'}, {'title': 'SAW X Logo Revealed and a Trailer is Coming This Summer', 'date': 'Tue, 27 Jun 2023 13:00:00 +0000', 'description': 'Lionsgate is getting ready to ramp up the marketing for director Kevin Greutert\\u2019s Saw X. Yes, there is a tenth Saw movie coming, and all of the official social media channels for the franchise have shared the first logo.', 'image': 'https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/66063f7a-2bbd-44ad-b504-5ae1b12a6575/saw-x-logo-revealed-and-...",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 10,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 11,
+          "node_type": "Action",
+          "description": "movies_news_recent_get_for_movies_news",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 12,
+          "node_type": "Action Input",
+          "description": "{}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"[{'title': 'How Mission: Impossible \\u2013 Rogue Nation Created A New Chapter For Ethan Hunt \\u2013 And Tom Cruise', 'date': 'Tue, 27 Jun 2023 13:00:01 +0000', 'description': 'Welcome to the team, Ilsa Faust.', 'image': 'https://www.slashfilm.com/img/gallery/how-mission-impossible-rogue-nation-created-a-new-chapter-for-ethan-hunt-and-tom-cruise/intro-1687796095.jpg', 'link': 'https://www.slashfilm.com/1323395/mission-impossible-rogue-nation-created-new-chapter-for-ethan-hunt-and-tom-cruise/'}, {'title': 'SAW X Logo Revealed and a Trailer is Coming This Summer', 'date': 'Tue, 27 Jun 2023 13:00:00 +0000', 'description': 'Lionsgate is getting ready to ramp up the marketing for director Kevin Greutert\\u2019s Saw X. Yes, there is a tenth Saw movie coming, and all of the official social media channels for the franchise have shared the first logo.', 'image': 'https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/66063f7a-2bbd-44ad-b504-5ae1b12a6575/saw-x-logo-revealed-and-...",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 13,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 14,
+          "node_type": "Action",
+          "description": "get_genres_for_anime_db",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 15,
+          "node_type": "Action Input",
+          "description": "{}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"[{\\\"_id\\\":\\\"Award Winning\\\"},{\\\"_id\\\":\\\"Action\\\"},{\\\"_id\\\":\\\"Suspense\\\"},{\\\"_id\\\":\\\"Horror\\\"},{\\\"_id\\\":\\\"Ecchi\\\"},{\\\"_id\\\":\\\"Avant Garde\\\"},{\\\"_id\\\":\\\"Sports\\\"},{\\\"_id\\\":\\\"Supernatural\\\"},{\\\"_id\\\":\\\"Fantasy\\\"},{\\\"_id\\\":\\\"Gourmet\\\"},{\\\"_id\\\":\\\"Boys Love\\\"},{\\\"_id\\\":\\\"Drama\\\"},{\\\"_id\\\":\\\"Comedy\\\"},{\\\"_id\\\":\\\"Mystery\\\"},{\\\"_id\\\":\\\"Girls Love\\\"},{\\\"_id\\\":\\\"Slice of Life\\\"},{\\\"_id\\\":\\\"Adventure\\\"},{\\\"_id\\\":\\\"Romance\\\"},{\\\"_id\\\":\\\"Sci-Fi\\\"},{\\\"_id\\\":\\\"Erotica\\\"},{\\\"_id\\\":\\\"Hentai\\\"}]\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 16,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 17,
+          "node_type": "Action",
+          "description": "get_video_for_playphrase_me",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": true,
+          "finished": false,
+          "depth": 18,
+          "node_type": "Action Input",
+          "description": "{\n  \"q\": \"famous movie quotes\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'count': 0, 'phrases': [], 'suggestions': [], 'next-word-suggestion': '', 'next-word-suggestions': [], 'subscription': False, 'word-suggestions': []}\"}",
+          "observation_code": 0,
+          "child_count": 0,
+          "expand_num": 0,
+          "io_state": {}
+        }
+      ],
+      "win": false
+    }
+  ],
+  "compare_candidates": [],
+  "forward_args": {
+    "single_chain_max_step": 18,
+    "pass_at": 1,
+    "answer": 1
+  },
+  "answer_generation": {
+    "valid_data": false,
+    "final_answer": "",
+    "function": [
+      {
+        "name": "movies_news_recent_get_for_movies_news",
+        "description": "This is the subfunction for tool \"movies_news\", you can use this tool.The description of this function is: \"Get the most recent movies news from top sources\n10 news items will be returned per request\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "get_video_for_playphrase_me",
+        "description": "This is the subfunction for tool \"playphrase_me\", you can use this tool.The description of this function is: \"To get 5 videos by searching quotes\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "q": {
+              "type": "string",
+              "description": ""
+            }
+          },
+          "required": [
+            "q"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "search_for_netflix_v2",
+        "description": "This is the subfunction for tool \"netflix_v2\", you can use this tool.The description of this function is: \"search_for_netflix_v2\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string",
+              "description": "Search Query",
+              "example_value": "stranger"
+            },
+            "lang": {
+              "type": "string",
+              "description": "",
+              "example_value": "en"
+            },
+            "limit_titles": {
+              "type": "integer",
+              "description": "Title Limit",
+              "example_value": "50"
+            },
+            "limit_suggestions": {
+              "type": "integer",
+              "description": "Suggestion Limit",
+              "example_value": "20"
+            },
+            "offset": {
+              "type": "integer",
+              "description": "Offset",
+              "example_value": "0"
+            }
+          },
+          "required": [
+            "query"
+          ],
+          "optional": [
+            "lang",
+            "limit_titles",
+            "limit_suggestions",
+            "offset"
+          ]
+        }
+      },
+      {
+        "name": "title_seasons_for_netflix_v2",
+        "description": "This is the subfunction for tool \"netflix_v2\", you can use this tool.The description of this function is: \"title_seasons_for_netflix_v2\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "ids": {
+              "type": "string",
+              "description": "Title IDs (you can separate with commas)",
+              "example_value": "80057281"
+            },
+            "lang": {
+              "type": "string",
+              "description": "",
+              "example_value": "en"
+            },
+            "offset": {
+              "type": "integer",
+              "description": "Offset",
+              "example_value": "0"
+            },
+            "limit": {
+              "type": "integer",
+              "description": "Season Limit",
+              "example_value": "25"
+            }
+          },
+          "required": [
+            "ids"
+          ],
+          "optional": [
+            "lang",
+            "offset",
+            "limit"
+          ]
+        }
+      },
+      {
+        "name": "languages_for_netflix_v2",
+        "description": "This is the subfunction for tool \"netflix_v2\", you can use this tool.The description of this function is: \"languages_for_netflix_v2\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "get_genres_for_anime_db",
+        "description": "This is the subfunction for tool \"anime_db\", you can use this tool.The description of this function is: \"get_genres_for_anime_db\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "get_by_id_for_anime_db",
+        "description": "This is the subfunction for tool \"anime_db\", you can use this tool.The description of this function is: \"Get anime by its corresponding ID.\n\nID is got from 'Get All' endpoint\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "is_id": {
+              "type": "integer",
+              "description": "",
+              "example_value": 1
+            }
+          },
+          "required": [
+            "is_id"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "get_one_anime_by_ranking_for_anime_db",
+        "description": "This is the subfunction for tool \"anime_db\", you can use this tool.The description of this function is: \"Get anime by ranking\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "rank": {
+              "type": "integer",
+              "description": "",
+              "example_value": "1"
+            }
+          },
+          "required": [
+            "rank"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "status_200_for_daily_ovrll_0822202124848",
+        "description": "This is the subfunction for tool \"daily_ovrll_0822202124848\", you can use this tool.The description of this function is: \"Testing\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "Finish",
+        "description": "If you believe that you have obtained a result that can answer the task, please call this function to provide the final answer. Alternatively, if you recognize that you are unable to proceed with the task in the current state, call this function to restart. Remember: you must ALWAYS call this function at the end of your attempt, and the only part that will be shown to the user is the final answer, so it should contain sufficient information.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "return_type": {
+              "type": "string",
+              "enum": [
+                "give_answer",
+                "give_up_and_restart"
+              ]
+            },
+            "final_answer": {
+              "type": "string",
+              "description": "The final answer you want to give the user. You should have this field if \"return_type\"==\"give_answer\""
+            }
+          },
+          "required": [
+            "return_type"
+          ]
+        }
+      }
+    ],
+    "query_count": 6,
+    "total_tokens": 18,
+    "train_messages": [],
+    "chain": [],
+    "query": "I'm a filmmaker and I'm looking for inspiration for my next project. Can you provide me with recent movie news and suggest five video clips related to famous movie quotes? Also, recommend an anime series that has won awards."
+  }
+}

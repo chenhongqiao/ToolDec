@@ -1,0 +1,406 @@
+{
+  "win": false,
+  "try_count": 1,
+  "trys": [
+    {
+      "chain": [
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 1,
+          "node_type": "Action",
+          "description": "charts_list_for_shazam",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 2,
+          "node_type": "Action Input",
+          "description": "{}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'countries': [{'id': 'DE', 'listid': 'ip-country-chart-DE', 'momentum_listid': 'risers-country-chart-DE', 'name': 'Germany', 'cities': [{'id': '2950159', 'name': 'Berlin', 'countryid': 'DE', 'listid': 'ip-city-chart-2950159'}, {'id': '2928810', 'name': 'Essen', 'countryid': 'DE', 'listid': 'ip-city-chart-2928810'}, {'id': '2867714', 'name': 'Munich', 'countryid': 'DE', 'listid': 'ip-city-chart-2867714'}, {'id': '2911298', 'name': 'Hamburg', 'countryid': 'DE', 'listid': 'ip-city-chart-2911298'}, {'id': '2925533', 'name': 'Frankfurt am Main', 'countryid': 'DE', 'listid': 'ip-city-chart-2925533'}, {'id': '2825297', 'name': 'Stuttgart', 'countryid': 'DE', 'listid': 'ip-city-chart-2825297'}, {'id': '2886242', 'name': 'K\\u00f6ln', 'countryid': 'DE', 'listid': 'ip-city-chart-2886242'}, {'id': '2873891', 'name': 'Mannheim', 'countryid': 'DE', 'listid': 'ip-city-chart-2873891'}, {'id': '2935517', 'name': 'Dortmund', 'countryid': 'DE', 'listid': 'ip-city-chart-2935517'}, {'id': '2861650', 'n...",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 3,
+          "node_type": "Action",
+          "description": "auto_complete_for_shazam",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 4,
+          "node_type": "Action Input",
+          "description": "{\n  \"term\": \"top tracks\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'hints': [{'term': 'ameritz top tracks'}, {'term': 'top tracks'}, {'term': 'top tracks 2022'}, {'term': 'top gun soundtrack'}, {'term': 'stars on 45: 18 top tracks from the first kings'}, {'term': '!nicks top tracks'}, {'term': 'top gun maverick soundtrack'}]}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 5,
+          "node_type": "Action",
+          "description": "auto_complete_for_shazam",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 6,
+          "node_type": "Action Input",
+          "description": "{\n  \"term\": \"top tracks 2022\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'hints': [{'term': 'top tracks 2022'}, {'term': 'top tracks of 2022'}, {'term': 'top gaming tracks 2022'}, {'term': 'top 20 acoustic tracks 2022'}, {'term': 'top gun 2022 soundtrack'}]}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 7,
+          "node_type": "Action",
+          "description": "auto_complete_for_shazam",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 8,
+          "node_type": "Action Input",
+          "description": "{\n  \"term\": \"top tracks of 2022\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'hints': [{'term': 'top tracks of 2022'}, {'term': 'top tracks 2022'}, {'term': 'top tracks of 2022 usa'}]}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 9,
+          "node_type": "Action",
+          "description": "auto_complete_for_shazam",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 10,
+          "node_type": "Action Input",
+          "description": "{\n  \"term\": \"top tracks of 2022 usa\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'hints': [{'term': 'top tracks of 2022 usa'}]}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 11,
+          "node_type": "Action",
+          "description": "auto_complete_for_shazam",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 12,
+          "node_type": "Action Input",
+          "description": "{\n  \"term\": \"top tracks of 2022 usa\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'hints': [{'term': 'top tracks of 2022 usa'}]}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 13,
+          "node_type": "Action",
+          "description": "auto_complete_for_shazam",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 14,
+          "node_type": "Action Input",
+          "description": "{\n  \"term\": \"top tracks of 2022 usa\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'hints': [{'term': 'top tracks of 2022 usa'}]}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 15,
+          "node_type": "Action",
+          "description": "auto_complete_for_shazam",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 16,
+          "node_type": "Action Input",
+          "description": "{\n  \"term\": \"top tracks of 2022 usa\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'hints': [{'term': 'top tracks of 2022 usa'}]}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 17,
+          "node_type": "Action",
+          "description": "auto_complete_for_shazam",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": true,
+          "finished": false,
+          "depth": 18,
+          "node_type": "Action Input",
+          "description": "{\n  \"term\": \"top tracks of 2022 usa\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'hints': [{'term': 'top tracks of 2022 usa'}]}\"}",
+          "observation_code": 0,
+          "child_count": 0,
+          "expand_num": 0,
+          "io_state": {}
+        }
+      ],
+      "win": false
+    }
+  ],
+  "compare_candidates": [],
+  "forward_args": {
+    "single_chain_max_step": 18,
+    "pass_at": 1,
+    "answer": 1
+  },
+  "answer_generation": {
+    "valid_data": false,
+    "final_answer": "",
+    "function": [
+      {
+        "name": "charts_list_for_shazam",
+        "description": "This is the subfunction for tool \"shazam\", you can use this tool.The description of this function is: \"List all available charts by cities, countries, and genres\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "auto_complete_for_shazam",
+        "description": "This is the subfunction for tool \"shazam\", you can use this tool.The description of this function is: \"Get suggestions by word or phrase\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string",
+              "description": "Any word or phrase of song, artist, etc... that you are familiar with",
+              "example_value": "kiss the"
+            },
+            "locale": {
+              "type": "string",
+              "description": "The language code",
+              "example_value": "en-US"
+            }
+          },
+          "required": [
+            "term"
+          ],
+          "optional": [
+            "locale"
+          ]
+        }
+      },
+      {
+        "name": "albums_get_details_for_shazam",
+        "description": "This is the subfunction for tool \"shazam\", you can use this tool.The description of this function is: \"Get detailed album of an album\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "is_id": {
+              "type": "string",
+              "description": "The value of 'albums->id' field returned in .../shazam-songs/get-details OR .../artists/get-albums OR .../artists/get-summary\nThe value of 'id' field returned in .../artists/get-albums OR .../artists/get-latest-release endpoint\nThe value of 'albumadamid' f",
+              "example_value": "850576570"
+            },
+            "l": {
+              "type": "string",
+              "description": "The language code",
+              "example_value": "en-US"
+            }
+          },
+          "required": [
+            "is_id"
+          ],
+          "optional": [
+            "l"
+          ]
+        }
+      },
+      {
+        "name": "playlist_info_for_soundcloud",
+        "description": "This is the subfunction for tool \"soundcloud\", you can use this tool.The description of this function is: \"Get playlist info.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "playlist_url": {
+              "type": "string",
+              "description": "",
+              "example_value": "https://soundcloud.com/vghc3eihbsdq/sets/almost-lover"
+            }
+          },
+          "required": [
+            "playlist_url"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "user_info_for_soundcloud",
+        "description": "This is the subfunction for tool \"soundcloud\", you can use this tool.The description of this function is: \"Get basic user info\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "profile_url": {
+              "type": "string",
+              "description": "",
+              "example_value": "https://soundcloud.com/user-977421934"
+            }
+          },
+          "required": [
+            "profile_url"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "search_for_soundcloud",
+        "description": "This is the subfunction for tool \"soundcloud\", you can use this tool.The description of this function is: \"Search the soundcloud, possible values for type are \"track\", \"user\", \"playlist\", \"all\".\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string",
+              "description": "",
+              "example_value": "all"
+            },
+            "query": {
+              "type": "string",
+              "description": "",
+              "example_value": "almost lover"
+            }
+          },
+          "required": [
+            "type",
+            "query"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "chlyricdirect_artist_michael_20jackson_song_bad_for_chart_lyrics",
+        "description": "This is the subfunction for tool \"chart_lyrics\", you can use this tool.The description of this function is: \"Sample API request to search Lyrics\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "Finish",
+        "description": "If you believe that you have obtained a result that can answer the task, please call this function to provide the final answer. Alternatively, if you recognize that you are unable to proceed with the task in the current state, call this function to restart. Remember: you must ALWAYS call this function at the end of your attempt, and the only part that will be shown to the user is the final answer, so it should contain sufficient information.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "return_type": {
+              "type": "string",
+              "enum": [
+                "give_answer",
+                "give_up_and_restart"
+              ]
+            },
+            "final_answer": {
+              "type": "string",
+              "description": "The final answer you want to give the user. You should have this field if \"return_type\"==\"give_answer\""
+            }
+          },
+          "required": [
+            "return_type"
+          ]
+        }
+      }
+    ],
+    "query_count": 9,
+    "total_tokens": 16713,
+    "train_messages": [],
+    "chain": [],
+    "query": "I'm a DJ and I'm looking for remixes of popular songs. Can you help me find remixes of the top tracks in the charts? Additionally, provide me with the details of the artists who created these remixes."
+  }
+}

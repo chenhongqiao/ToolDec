@@ -1,0 +1,507 @@
+{
+  "win": false,
+  "try_count": 1,
+  "trys": [
+    {
+      "chain": [
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 1,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 2,
+          "node_type": "Action",
+          "description": "search_basic_free_for_streaming_availability",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 3,
+          "node_type": "Action Input",
+          "description": "{\n  \"services\": \"netflix,prime_video,disney_plus,hbo,hulu\",\n  \"country\": \"US\",\n  \"show_type\": \"all\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 4,
+          "node_type": "Thought",
+          "description": "search_basic_free_for_streaming_availability\nAction Input: {\n  \"services\": \"netflix,prime_video,disney_plus,hbo,hulu\",\n  \"country\": \"US\",\n  \"keyword\": \"party planning websites\"\n",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 5,
+          "node_type": "Action",
+          "description": "search_basic_free_for_streaming_availability",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 6,
+          "node_type": "Action Input",
+          "description": "{\n  \"services\": \"netflix,prime_video,disney_plus,hbo,hulu\",\n  \"country\": \"US\",\n  \"keyword\": \"party planning websites\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 7,
+          "node_type": "Thought",
+          "description": "search_basic_free_for_streaming_availability\nAction Input: {\n  \"services\": \"netflix,prime_video,disney_plus,hbo,hulu\",\n  \"country\": \"US\",\n  \"keyword\": \"party planning websites\"\n",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 8,
+          "node_type": "Action",
+          "description": "search_basic_free_for_streaming_availability",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 9,
+          "node_type": "Action Input",
+          "description": "{\n  \"services\": \"netflix,prime_video,disney_plus,hbo,hulu\",\n  \"country\": \"US\",\n  \"keyword\": \"party planning websites\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 10,
+          "node_type": "Thought",
+          "description": "search_basic_free_for_streaming_availability\nAction Input: {\n  \"services\": \"netflix,prime_video,disney_plus,hbo,hulu\",\n  \"country\": \"US\",\n  \"keyword\": \"party planning websites\"\n",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 11,
+          "node_type": "Action",
+          "description": "search_basic_free_for_streaming_availability",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 12,
+          "node_type": "Action Input",
+          "description": "{\n  \"services\": \"netflix,prime_video,disney_plus,hbo,hulu\",\n  \"country\": \"US\",\n  \"keyword\": \"party planning websites\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 13,
+          "node_type": "Thought",
+          "description": "search_basic_free_for_streaming_availability\nAction Input: {\n  \"services\": \"netflix,prime_video,disney_plus,hbo,hulu\",\n  \"country\": \"US\",\n  \"keyword\": \"party planning websites\"\n",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 14,
+          "node_type": "Action",
+          "description": "search_basic_free_for_streaming_availability",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 15,
+          "node_type": "Action Input",
+          "description": "{\n  \"services\": \"netflix,prime_video,disney_plus,hbo,hulu\",\n  \"country\": \"US\",\n  \"keyword\": \"party planning websites\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 16,
+          "node_type": "Thought",
+          "description": "Finish\nAction Input: {\n  \"return_type\": \"give_up_and_restart\"\n",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 17,
+          "node_type": "Action",
+          "description": "Finish",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": true,
+          "finished": false,
+          "depth": 18,
+          "node_type": "Action Input",
+          "description": "{\n  \"return_type\": \"give_up_and_restart\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"response\":\"chose to give up and restart\"}",
+          "observation_code": 4,
+          "child_count": 0,
+          "expand_num": 0,
+          "io_state": {}
+        }
+      ],
+      "win": false
+    }
+  ],
+  "compare_candidates": [],
+  "forward_args": {
+    "single_chain_max_step": 18,
+    "pass_at": 1,
+    "answer": 1
+  },
+  "answer_generation": {
+    "valid_data": false,
+    "final_answer": "",
+    "function": [
+      {
+        "name": "get_the_calendar_for_alpaca_trading",
+        "description": "This is the subfunction for tool \"alpaca_trading\", you can use this tool.The description of this function is: \"Returns the market calendar\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "get_a_list_of_orders_for_alpaca_trading",
+        "description": "This is the subfunction for tool \"alpaca_trading\", you can use this tool.The description of this function is: \"Retrieves a list of orders for the account, filtered by the supplied query parameters.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "get_assets_for_alpaca_trading",
+        "description": "This is the subfunction for tool \"alpaca_trading\", you can use this tool.",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "search_basic_free_for_streaming_availability",
+        "description": "This is the subfunction for tool \"streaming_availability\", you can use this tool.The description of this function is: \"Search through the catalog of the given services in the given country. Provides filters such as show language, genre and keyword. Items per page is 8. Output includes all the information about the shows, such as title, IMDb ID, TMDb ID, IMDb rating, link t\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "services": {
+              "type": "string",
+              "description": "A comma separated list of up to 4 services to search in. See `/v2/services` endpoint to get the supported services and their ids/names.\n\nSyntax of the values supplied in the list can be as the followings:\n\n`<sevice_id>`: Searches in the entire catalog of t",
+              "example_value": "netflix,prime.buy,hulu.addon.hbo,peacock.free"
+            },
+            "country": {
+              "type": "string",
+              "description": "2 letter ISO 3166-1 alpha-2 country code of the country to search in. See the about page to check the supported countries.",
+              "example_value": "us"
+            },
+            "cursor": {
+              "type": "string",
+              "description": "Cursor is used for pagination. After each request, the response includes a `hasMore` boolean field to tell if there are more results that did not fit the returned list size. If it is set as true, to get the rest of the result set, send a new request (with "
+            },
+            "show_original_language": {
+              "type": "string",
+              "description": "A 2 letter ISO 639-1 language code to only search within the shows whose original language matches with the provided language.",
+              "example_value": "en"
+            },
+            "genre": {
+              "type": "string",
+              "description": "A genre id to only search within the shows in that genre. See `/v2/genres` endpoint to see available genres and ids.",
+              "example_value": "18"
+            },
+            "keyword": {
+              "type": "string",
+              "description": "A keyword to only search within the shows have that keyword in their overview or title.",
+              "example_value": "zombie"
+            },
+            "output_language": {
+              "type": "string",
+              "description": "2 letter iso code of the output language. Default is `en`. See the about page to see the list of languages supported.",
+              "example_value": "en"
+            },
+            "show_type": {
+              "type": "string",
+              "description": "Type of shows to search in. Accepted values are `movie`, `series` or `all`. The default value is `all`.",
+              "example_value": "movie"
+            }
+          },
+          "required": [
+            "services",
+            "country"
+          ],
+          "optional": [
+            "cursor",
+            "show_original_language",
+            "genre",
+            "keyword",
+            "output_language",
+            "show_type"
+          ]
+        }
+      },
+      {
+        "name": "search_ultra_for_streaming_availability",
+        "description": "This is the subfunction for tool \"streaming_availability\", you can use this tool.The description of this function is: \"Search through the catalog of the given services in the given country. Provides filters such as show language, genre and keyword. Items per page is 25. Output includes all the information about the shows, such as title, IMDb ID, TMDb ID, IMDb rating, link \"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "services": {
+              "type": "string",
+              "description": "A comma separated list of up to 16 services to search in. See `/v2/services` endpoint to get the supported services and their ids/names.\n\nSyntax of the values supplied in the list can be as the followings:\n\n`<sevice_id>`: Searches in the entire catalog of ",
+              "example_value": "netflix,prime.buy,hulu.addon.hbo,peacock.free"
+            },
+            "country": {
+              "type": "string",
+              "description": "2 letter ISO 3166-1 alpha-2 country code of the country to search in. See the about page to check the supported countries.",
+              "example_value": "us"
+            },
+            "max_imdb_vote_count": {
+              "type": "integer",
+              "description": "",
+              "example_value": "1000000"
+            },
+            "order_by": {
+              "type": "string",
+              "description": "Determines the ordering of the results.\n\nPossible values are `original_title`, `imdb_vote_count`, `imdb_rating` and `year`. Default value is `original_title`",
+              "example_value": "year"
+            },
+            "max_imdb_rating": {
+              "type": "integer",
+              "description": "Out of 100",
+              "example_value": "90"
+            },
+            "min_imdb_rating": {
+              "type": "integer",
+              "description": "Out of 100",
+              "example_value": "70"
+            },
+            "desc": {
+              "type": "boolean",
+              "description": "Use descending order?\n\nPossible values are `true` and `false`. Default value is `false`.",
+              "example_value": "true"
+            },
+            "keyword": {
+              "type": "string",
+              "description": "A keyword to only search within the shows have that keyword in their overview or title."
+            },
+            "cursor": {
+              "type": "string",
+              "description": "Cursor is used for pagination. After each request, the response includes a `hasMore` boolean field to tell if there are more results that did not fit the returned list size. If it is set as true, to get the rest of the result set, send a new request (with "
+            },
+            "year_max": {
+              "type": "integer",
+              "description": "Maximum release/air year of the show.",
+              "example_value": "2025"
+            },
+            "min_imdb_vote_count": {
+              "type": "integer",
+              "description": "",
+              "example_value": "10000"
+            },
+            "year_min": {
+              "type": "integer",
+              "description": "Minimum release/air year of the show.",
+              "example_value": "2000"
+            },
+            "show_original_language": {
+              "type": "string",
+              "description": "A 2 letter ISO 639-1 language code to only search within the shows whose original language matches with the provided language.",
+              "example_value": "en"
+            },
+            "genres_relation": {
+              "type": "string",
+              "description": "When more than one genre is supplied in `genres` parameter, `genres_relation` chooses the matching style against\n\nWhen `or`, the endpoint returns any show that has at least one of the given genres.\nWhen `and`, it only returns the shows that have all of the",
+              "example_value": "or"
+            },
+            "genres": {
+              "type": "string",
+              "description": "Comma separated list of genre ids to only search within the shows in those genres. See `/v2/genres` endpoint to see available genres and ids.\n\nWhen more than one genre supplied, set `genres_relation` parameter to specify between returning shows that have a",
+              "example_value": "18,80"
+            },
+            "output_language": {
+              "type": "string",
+              "description": "2 letter iso code of the output language. Default is `en`. See the about page to see the list of languages supported.",
+              "example_value": "en"
+            },
+            "show_type": {
+              "type": "string",
+              "description": "Type of shows to search in. Accepted values are `movie`, `series` or `all`. The default value is `all`.",
+              "example_value": "movie"
+            }
+          },
+          "required": [
+            "services",
+            "country"
+          ],
+          "optional": [
+            "max_imdb_vote_count",
+            "order_by",
+            "max_imdb_rating",
+            "min_imdb_rating",
+            "desc",
+            "keyword",
+            "cursor",
+            "year_max",
+            "min_imdb_vote_count",
+            "year_min",
+            "show_original_language",
+            "genres_relation",
+            "genres",
+            "output_language",
+            "show_type"
+          ]
+        }
+      },
+      {
+        "name": "search_by_title_free_for_streaming_availability",
+        "description": "This is the subfunction for tool \"streaming_availability\", you can use this tool.The description of this function is: \"Search movies and series by title. Maximum amount of items returned are 20, unless there are more than 20 shows with the exact given title input. In that case all the items have 100% match with the title will be returned.\n\nNo pagination is supported.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "description": "Title to search for.",
+              "example_value": "batman"
+            },
+            "country": {
+              "type": "string",
+              "description": "Regardless of this value, the given title is searched across all the platforms and all the countries. This parameter determines according to which country the streamingInfo field will be populated. Thus even if a show is not available in this country, It w",
+              "example_value": "us"
+            },
+            "show_type": {
+              "type": "string",
+              "description": "Type of shows to include in the results. Either `movie`, `series` or `all`. Default is `all`.",
+              "example_value": "movie"
+            },
+            "output_language": {
+              "type": "string",
+              "description": "2 letter iso code of the output language. Default is `en`. See the about page to see the list of languages supported.",
+              "example_value": "en"
+            }
+          },
+          "required": [
+            "title",
+            "country"
+          ],
+          "optional": [
+            "show_type",
+            "output_language"
+          ]
+        }
+      },
+      {
+        "name": "Finish",
+        "description": "If you believe that you have obtained a result that can answer the task, please call this function to provide the final answer. Alternatively, if you recognize that you are unable to proceed with the task in the current state, call this function to restart. Remember: you must ALWAYS call this function at the end of your attempt, and the only part that will be shown to the user is the final answer, so it should contain sufficient information.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "return_type": {
+              "type": "string",
+              "enum": [
+                "give_answer",
+                "give_up_and_restart"
+              ]
+            },
+            "final_answer": {
+              "type": "string",
+              "description": "The final answer you want to give the user. You should have this field if \"return_type\"==\"give_answer\""
+            }
+          },
+          "required": [
+            "return_type"
+          ]
+        }
+      }
+    ],
+    "query_count": 6,
+    "total_tokens": 18,
+    "train_messages": [],
+    "chain": [],
+    "query": "I'm planning a surprise party for my best friend's birthday and I need some ideas. Can you search for party planning websites that offer unique theme ideas and provide me with the options? Additionally, fetch the list of available venues for the party to finalize the location. Also, search for movies and series related to surprise parties to get inspiration for the event."
+  }
+}

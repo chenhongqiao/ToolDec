@@ -1,0 +1,301 @@
+{
+  "win": false,
+  "try_count": 1,
+  "trys": [
+    {
+      "chain": [
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 1,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 2,
+          "node_type": "Action",
+          "description": "search_for_deezer",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 3,
+          "node_type": "Action Input",
+          "description": "{\n  \"q\": \"specific artist\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 4,
+          "node_type": "Thought",
+          "description": "search_for_deezer\nAction Input: {\n  \"q\": \"specific artist\"\n",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 5,
+          "node_type": "Action",
+          "description": "search_for_deezer",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 6,
+          "node_type": "Action Input",
+          "description": "{\n  \"q\": \"specific artist\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 7,
+          "node_type": "Thought",
+          "description": "search_for_deezer\nAction Input: {\n  \"q\": \"popular artists\"\n",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 8,
+          "node_type": "Action",
+          "description": "search_for_deezer",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 9,
+          "node_type": "Action Input",
+          "description": "{\n  \"q\": \"popular artists\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 10,
+          "node_type": "Thought",
+          "description": "Finish\nAction Input: {\n  \"return_type\": \"give_up_and_restart\"\n",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 11,
+          "node_type": "Action",
+          "description": "Finish",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": true,
+          "finished": false,
+          "depth": 12,
+          "node_type": "Action Input",
+          "description": "{\n  \"return_type\": \"give_up_and_restart\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"response\":\"chose to give up and restart\"}",
+          "observation_code": 4,
+          "child_count": 0,
+          "expand_num": 0,
+          "io_state": {}
+        }
+      ],
+      "win": false
+    }
+  ],
+  "compare_candidates": [],
+  "forward_args": {
+    "single_chain_max_step": 18,
+    "pass_at": 1,
+    "answer": 1
+  },
+  "answer_generation": {
+    "valid_data": false,
+    "final_answer": "",
+    "function": [
+      {
+        "name": "get_artists_for_spotify",
+        "description": "This is the subfunction for tool \"spotify\", you can use this tool.The description of this function is: \"Get one or more artists\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "ids": {
+              "type": "string",
+              "description": "Artist IDs (you can use commas)",
+              "example_value": "2w9zwq3AktTeYYMuhMjju8"
+            }
+          },
+          "required": [
+            "ids"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "get_radio_playlist_for_spotify",
+        "description": "This is the subfunction for tool \"spotify\", you can use this tool.The description of this function is: \"Get artist or song radio\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "uri": {
+              "type": "string",
+              "description": "Artist or song URI",
+              "example_value": "spotify:artist:2w9zwq3AktTeYYMuhMjju8"
+            }
+          },
+          "required": [
+            "uri"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "artist_appears_on_for_spotify",
+        "description": "This is the subfunction for tool \"spotify\", you can use this tool.The description of this function is: \"Get artist appears on albums (max 50)\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "is_id": {
+              "type": "string",
+              "description": "Artist ID",
+              "example_value": "2w9zwq3AktTeYYMuhMjju8"
+            }
+          },
+          "required": [
+            "is_id"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "comment_for_deezer",
+        "description": "This is the subfunction for tool \"deezer\", you can use this tool.The description of this function is: \"A comment object\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "is_id": {
+              "type": "string",
+              "description": "The playlist's Deezer id"
+            }
+          },
+          "required": [
+            "is_id"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "genre_for_deezer",
+        "description": "This is the subfunction for tool \"deezer\", you can use this tool.The description of this function is: \"A genre object\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "is_id": {
+              "type": "string",
+              "description": "The editorial's Deezer id"
+            }
+          },
+          "required": [
+            "is_id"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "search_for_deezer",
+        "description": "This is the subfunction for tool \"deezer\", you can use this tool.The description of this function is: \"Search tracks\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "q": {
+              "type": "string",
+              "description": "",
+              "example_value": "eminem"
+            }
+          },
+          "required": [
+            "q"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "Finish",
+        "description": "If you believe that you have obtained a result that can answer the task, please call this function to provide the final answer. Alternatively, if you recognize that you are unable to proceed with the task in the current state, call this function to restart. Remember: you must ALWAYS call this function at the end of your attempt, and the only part that will be shown to the user is the final answer, so it should contain sufficient information.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "return_type": {
+              "type": "string",
+              "enum": [
+                "give_answer",
+                "give_up_and_restart"
+              ]
+            },
+            "final_answer": {
+              "type": "string",
+              "description": "The final answer you want to give the user. You should have this field if \"return_type\"==\"give_answer\""
+            }
+          },
+          "required": [
+            "return_type"
+          ]
+        }
+      }
+    ],
+    "query_count": 4,
+    "total_tokens": 12,
+    "train_messages": [],
+    "chain": [],
+    "query": "I am organizing a music-themed party for my friends. Can you search for tracks related to a specific artist? Also, recommend some popular artists from the same genre."
+  }
+}

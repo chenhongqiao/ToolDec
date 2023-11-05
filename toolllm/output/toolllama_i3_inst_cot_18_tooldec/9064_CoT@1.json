@@ -1,0 +1,378 @@
+{
+  "win": false,
+  "try_count": 1,
+  "trys": [
+    {
+      "chain": [
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 1,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 2,
+          "node_type": "Action",
+          "description": "search_for_soundcloud",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 3,
+          "node_type": "Action Input",
+          "description": "{\n  \"type\": \"track\",\n  \"query\": \"popular tracks\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 4,
+          "node_type": "Thought",
+          "description": "search_for_soundcloud\nAction Input: {\n  \"type\": \"track\",\n  \"query\": \"popular tracks\"\n",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 5,
+          "node_type": "Action",
+          "description": "search_for_soundcloud",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 6,
+          "node_type": "Action Input",
+          "description": "{\n  \"type\": \"track\",\n  \"query\": \"popular tracks\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 7,
+          "node_type": "Thought",
+          "description": "search_for_soundcloud\nAction Input: {\n  \"type\": \"track\",\n  \"query\": \"popular tracks\"\n",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 8,
+          "node_type": "Action",
+          "description": "search_for_soundcloud",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 9,
+          "node_type": "Action Input",
+          "description": "{\n  \"type\": \"track\",\n  \"query\": \"popular tracks\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 10,
+          "node_type": "Thought",
+          "description": "search_for_soundcloud\nAction Input: {\n  \"type\": \"track\",\n  \"query\": \"popular tracks\"\n",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 11,
+          "node_type": "Action",
+          "description": "search_for_soundcloud",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 12,
+          "node_type": "Action Input",
+          "description": "{\n  \"type\": \"track\",\n  \"query\": \"popular tracks\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 13,
+          "node_type": "Thought",
+          "description": "search_for_soundcloud\nAction Input: {\n  \"type\": \"track\",\n  \"query\": \"popular tracks\"\n",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 14,
+          "node_type": "Action",
+          "description": "search_for_soundcloud",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 15,
+          "node_type": "Action Input",
+          "description": "{\n  \"type\": \"track\",\n  \"query\": \"popular tracks\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 16,
+          "node_type": "Thought",
+          "description": "Finish\nAction Input: {\n  \"return_type\": \"give_up_and_restart\"\n",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 17,
+          "node_type": "Action",
+          "description": "Finish",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": true,
+          "finished": false,
+          "depth": 18,
+          "node_type": "Action Input",
+          "description": "{\n  \"return_type\": \"give_up_and_restart\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"response\":\"chose to give up and restart\"}",
+          "observation_code": 4,
+          "child_count": 0,
+          "expand_num": 0,
+          "io_state": {}
+        }
+      ],
+      "win": false
+    }
+  ],
+  "compare_candidates": [],
+  "forward_args": {
+    "single_chain_max_step": 18,
+    "pass_at": 1,
+    "answer": 1
+  },
+  "answer_generation": {
+    "valid_data": false,
+    "final_answer": "",
+    "function": [
+      {
+        "name": "user_info_for_soundcloud",
+        "description": "This is the subfunction for tool \"soundcloud\", you can use this tool.The description of this function is: \"Get basic user info\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "profile_url": {
+              "type": "string",
+              "description": "",
+              "example_value": "https://soundcloud.com/user-977421934"
+            }
+          },
+          "required": [
+            "profile_url"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "search_for_soundcloud",
+        "description": "This is the subfunction for tool \"soundcloud\", you can use this tool.The description of this function is: \"Search the soundcloud, possible values for type are \"track\", \"user\", \"playlist\", \"all\".\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string",
+              "description": "",
+              "example_value": "all"
+            },
+            "query": {
+              "type": "string",
+              "description": "",
+              "example_value": "almost lover"
+            }
+          },
+          "required": [
+            "type",
+            "query"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "song_download_for_soundcloud",
+        "description": "This is the subfunction for tool \"soundcloud\", you can use this tool.The description of this function is: \"Download one song, the result is a url which you can get the song.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "track_url": {
+              "type": "string",
+              "description": "",
+              "example_value": "https://soundcloud.com/user-977421934/the-phoenix"
+            }
+          },
+          "required": [
+            "track_url"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "artist_for_deezer",
+        "description": "This is the subfunction for tool \"deezer\", you can use this tool.The description of this function is: \"An artist object\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "is_id": {
+              "type": "string",
+              "description": "The artist's Deezer id"
+            }
+          },
+          "required": [
+            "is_id"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "comment_for_deezer",
+        "description": "This is the subfunction for tool \"deezer\", you can use this tool.The description of this function is: \"A comment object\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "is_id": {
+              "type": "string",
+              "description": "The playlist's Deezer id"
+            }
+          },
+          "required": [
+            "is_id"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "editorial_for_deezer",
+        "description": "This is the subfunction for tool \"deezer\", you can use this tool.The description of this function is: \"An editorial object\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "is_id": {
+              "type": "string",
+              "description": "The editorial's Deezer id"
+            }
+          },
+          "required": [
+            "is_id"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "Finish",
+        "description": "If you believe that you have obtained a result that can answer the task, please call this function to provide the final answer. Alternatively, if you recognize that you are unable to proceed with the task in the current state, call this function to restart. Remember: you must ALWAYS call this function at the end of your attempt, and the only part that will be shown to the user is the final answer, so it should contain sufficient information.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "return_type": {
+              "type": "string",
+              "enum": [
+                "give_answer",
+                "give_up_and_restart"
+              ]
+            },
+            "final_answer": {
+              "type": "string",
+              "description": "The final answer you want to give the user. You should have this field if \"return_type\"==\"give_answer\""
+            }
+          },
+          "required": [
+            "return_type"
+          ]
+        }
+      }
+    ],
+    "query_count": 6,
+    "total_tokens": 18,
+    "train_messages": [],
+    "chain": [],
+    "query": "I'm planning a road trip with my friends and we're looking for some good music to listen to. Can you suggest some popular tracks from Soundcloud that we can download? Also, recommend some artists from Deezer that we can add to our playlist."
+  }
+}

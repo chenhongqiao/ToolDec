@@ -1,0 +1,340 @@
+{
+  "win": false,
+  "try_count": 1,
+  "trys": [
+    {
+      "chain": [
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 1,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 2,
+          "node_type": "Action",
+          "description": "find_similar_for_similar_movies",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 3,
+          "node_type": "Action Input",
+          "description": "{\n  \"is_id\": \"the_matrix\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \" scrape failed: AxiosError: Request failed with status code 404\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 4,
+          "node_type": "Thought",
+          "description": "status_200_for_daily_ovrll_0822202130837\nAction Input: {",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 5,
+          "node_type": "Action",
+          "description": "status_200_for_daily_ovrll_0822202130837",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 6,
+          "node_type": "Action Input",
+          "description": "{}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'messages': 'The request to the API has timed out. Please try again later, or if the issue persists, please contact the API provider', 'info': 'Your Client (working) ---> Gateway (working) ---> API (took too long to respond)'}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 7,
+          "node_type": "Thought",
+          "description": "get_video_for_playphrase_me\nAction Input: {\n  \"q\": \"sci-fi movies\"\n",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 8,
+          "node_type": "Action",
+          "description": "get_video_for_playphrase_me",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 9,
+          "node_type": "Action Input",
+          "description": "{\n  \"q\": \"sci-fi movies\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'count': 2, 'phrases': [{'video-info': {'info': 'Twist of Fate (2016) [01:16:33]', 'imdb': 'tt5175158'}, 'index': 0, 'words': [{'text': 'And', 'start': 1127, 'end': 1367, 'index': 0, 'searched?': False}, {'text': 'calling', 'start': 1367, 'end': 1607, 'index': 1, 'searched?': False}, {'text': 'up', 'start': 1607, 'end': 1847, 'index': 2, 'searched?': False}, {'text': 'strangers', 'start': 1847, 'end': 2407, 'index': 3, 'searched?': False}, {'text': 'asking', 'start': 2407, 'end': 2727, 'index': 4, 'searched?': False}, {'text': 'if', 'start': 2727, 'end': 2887, 'index': 5, 'searched?': False}, {'text': 'they', 'start': 2887, 'end': 3047, 'index': 6, 'searched?': False}, {'text': 'know', 'start': 3047, 'end': 3367, 'index': 7, 'searched?': False}, {'text': 'obscure', 'start': 3367, 'end': 3847, 'index': 8, 'searched?': False}, {'text': 'scifi', 'start': 3847, 'end': 4327, 'index': 9, 'searched?': True}, {'text': 'movies.', 'start': 4327, 'end': 4327, 'index': 10, 'searched?': True}],...",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 10,
+          "node_type": "Thought",
+          "description": "or_similar_movies\nAction Input: {\n  \"q\": \"The Matrix\"\n",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 11,
+          "node_type": "Action",
+          "description": "for_similar_movies",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 12,
+          "node_type": "Action Input",
+          "description": "{\n  \"q\": \"The Matrix\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"No such function name: for_similar_movies\", \"response\": \"\"}",
+          "observation_code": 1,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 13,
+          "node_type": "Thought",
+          "description": "ction Input: {\n  \"return_type\": \"give_up_and_restart\"\n",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 14,
+          "node_type": "Action",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 15,
+          "node_type": "Action Input",
+          "description": "{\n  \"return_type\": \"give_up_and_restart\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"No such function name: \", \"response\": \"\"}",
+          "observation_code": 1,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 16,
+          "node_type": "Thought",
+          "description": "Finish\nAction Input: {\n  \"return_type\": \"give_up_and_restart\"\n",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 17,
+          "node_type": "Action",
+          "description": "Finish",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": true,
+          "finished": false,
+          "depth": 18,
+          "node_type": "Action Input",
+          "description": "{\n  \"return_type\": \"give_up_and_restart\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"response\":\"chose to give up and restart\"}",
+          "observation_code": 4,
+          "child_count": 0,
+          "expand_num": 0,
+          "io_state": {}
+        }
+      ],
+      "win": false
+    }
+  ],
+  "compare_candidates": [],
+  "forward_args": {
+    "single_chain_max_step": 18,
+    "pass_at": 1,
+    "answer": 1
+  },
+  "answer_generation": {
+    "valid_data": false,
+    "final_answer": "",
+    "function": [
+      {
+        "name": "get_video_for_playphrase_me",
+        "description": "This is the subfunction for tool \"playphrase_me\", you can use this tool.The description of this function is: \"To get 5 videos by searching quotes\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "q": {
+              "type": "string",
+              "description": ""
+            }
+          },
+          "required": [
+            "q"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "status_200_for_daily_ovrll_0822202130837",
+        "description": "This is the subfunction for tool \"daily_ovrll_0822202130837\", you can use this tool.The description of this function is: \"Testing\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "get_id_for_similar_movies",
+        "description": "This is the subfunction for tool \"similar_movies\", you can use this tool.The description of this function is: \"get the id of your movie\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "q": {
+              "type": "string",
+              "description": "",
+              "example_value": "titanic"
+            }
+          },
+          "required": [
+            "q"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "find_similar_for_similar_movies",
+        "description": "This is the subfunction for tool \"similar_movies\", you can use this tool.The description of this function is: \"find_similar_for_similar_movies movies for your movie\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "is_id": {
+              "type": "string",
+              "description": "",
+              "example_value": "24168-titanic"
+            }
+          },
+          "required": [
+            "is_id"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "status_200_for_daily_ovrll_0822202141203",
+        "description": "This is the subfunction for tool \"daily_ovrll_0822202141203\", you can use this tool.The description of this function is: \"Testing\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "Finish",
+        "description": "If you believe that you have obtained a result that can answer the task, please call this function to provide the final answer. Alternatively, if you recognize that you are unable to proceed with the task in the current state, call this function to restart. Remember: you must ALWAYS call this function at the end of your attempt, and the only part that will be shown to the user is the final answer, so it should contain sufficient information.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "return_type": {
+              "type": "string",
+              "enum": [
+                "give_answer",
+                "give_up_and_restart"
+              ]
+            },
+            "final_answer": {
+              "type": "string",
+              "description": "The final answer you want to give the user. You should have this field if \"return_type\"==\"give_answer\""
+            }
+          },
+          "required": [
+            "return_type"
+          ]
+        }
+      }
+    ],
+    "query_count": 6,
+    "total_tokens": 18,
+    "train_messages": [],
+    "chain": [],
+    "query": "I am hosting a movie trivia night and I need some movie recommendations. Can you find movies similar to 'The Matrix' and provide their IDs? Additionally, search for videos that include famous quotes from sci-fi movies."
+  }
+}

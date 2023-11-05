@@ -1,0 +1,334 @@
+{
+  "win": false,
+  "try_count": 1,
+  "trys": [
+    {
+      "chain": [
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 1,
+          "node_type": "Action",
+          "description": "v1_jokes_for_jokes_by_api_ninjas",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 2,
+          "node_type": "Action Input",
+          "description": "{}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"[{'joke': 'Why Does Snoop Dogg need an umbrella? For drizzle, my nizzle.'}]\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 3,
+          "node_type": "Action",
+          "description": "jokes_categories_for_chuck_norris",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 4,
+          "node_type": "Action Input",
+          "description": "{}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"[\\\"animal\\\",\\\"career\\\",\\\"celebrity\\\",\\\"dev\\\",\\\"explicit\\\",\\\"fashion\\\",\\\"food\\\",\\\"history\\\",\\\"money\\\",\\\"movie\\\",\\\"music\\\",\\\"political\\\",\\\"religion\\\",\\\"science\\\",\\\"sport\\\",\\\"travel\\\"]\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 5,
+          "node_type": "Action",
+          "description": "jokes_search_for_chuck_norris",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 6,
+          "node_type": "Action Input",
+          "description": "{\n\"query\": \"cats\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'total': 11, 'result': [{'categories': [], 'created_at': '2020-01-05 13:42:19.324003', 'icon_url': 'https://assets.chucknorris.host/img/avatar/chuck-norris.png', 'id': 'g7OGUjc7T-WPMu5m_-po_Q', 'updated_at': '2020-01-05 13:42:19.324003', 'url': 'https://api.chucknorris.io/jokes/g7OGUjc7T-WPMu5m_-po_Q', 'value': 'Chuck Norris decided he needed to have a pet. He looked at dogs and cats then ended up getting a pet alligator named Fluffy.'}, {'categories': [], 'created_at': '2020-01-05 13:42:20.262289', 'icon_url': 'https://assets.chucknorris.host/img/avatar/chuck-norris.png', 'id': 'QFBQ_uDUTO2PTF3AfOhzuA', 'updated_at': '2020-01-05 13:42:20.262289', 'url': 'https://api.chucknorris.io/jokes/QFBQ_uDUTO2PTF3AfOhzuA', 'value': 'Creepers are scared of cats because Chuck Norris does not harm cats. Creepers know that this means that Chuck Norris likes cats and vice versa. Therefore, they know that if they harm a cat that Chuck Norris will harm THEM. They also know that Chuck Norris does not...",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 7,
+          "node_type": "Action",
+          "description": "jokes_random_for_chuck_norris",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 8,
+          "node_type": "Action Input",
+          "description": "{}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{\\\"categories\\\":[],\\\"created_at\\\":\\\"2020-01-05 13:42:28.143137\\\",\\\"icon_url\\\":\\\"https://assets.chucknorris.host/img/avatar/chuck-norris.png\\\",\\\"id\\\":\\\"w1QcOOGdStm9Wz27-AKCIw\\\",\\\"updated_at\\\":\\\"2020-01-05 13:42:28.143137\\\",\\\"url\\\":\\\"https://api.chucknorris.io/jokes/w1QcOOGdStm9Wz27-AKCIw\\\",\\\"value\\\":\\\"Chuck Norris doesn't clip his fingernails... he rips them out with his bare hands and regrows new ones immediately.\\\"}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 9,
+          "node_type": "Action",
+          "description": "jokes_random_for_chuck_norris",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 10,
+          "node_type": "Action Input",
+          "description": "{}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{\\\"categories\\\":[],\\\"created_at\\\":\\\"2020-01-05 13:42:28.143137\\\",\\\"icon_url\\\":\\\"https://assets.chucknorris.host/img/avatar/chuck-norris.png\\\",\\\"id\\\":\\\"w1QcOOGdStm9Wz27-AKCIw\\\",\\\"updated_at\\\":\\\"2020-01-05 13:42:28.143137\\\",\\\"url\\\":\\\"https://api.chucknorris.io/jokes/w1QcOOGdStm9Wz27-AKCIw\\\",\\\"value\\\":\\\"Chuck Norris doesn't clip his fingernails... he rips them out with his bare hands and regrows new ones immediately.\\\"}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 11,
+          "node_type": "Action",
+          "description": "jokes_search_for_chuck_norris",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 12,
+          "node_type": "Action Input",
+          "description": "{\n\"query\": \"cats\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'total': 11, 'result': [{'categories': [], 'created_at': '2020-01-05 13:42:19.324003', 'icon_url': 'https://assets.chucknorris.host/img/avatar/chuck-norris.png', 'id': 'g7OGUjc7T-WPMu5m_-po_Q', 'updated_at': '2020-01-05 13:42:19.324003', 'url': 'https://api.chucknorris.io/jokes/g7OGUjc7T-WPMu5m_-po_Q', 'value': 'Chuck Norris decided he needed to have a pet. He looked at dogs and cats then ended up getting a pet alligator named Fluffy.'}, {'categories': [], 'created_at': '2020-01-05 13:42:20.262289', 'icon_url': 'https://assets.chucknorris.host/img/avatar/chuck-norris.png', 'id': 'QFBQ_uDUTO2PTF3AfOhzuA', 'updated_at': '2020-01-05 13:42:20.262289', 'url': 'https://api.chucknorris.io/jokes/QFBQ_uDUTO2PTF3AfOhzuA', 'value': 'Creepers are scared of cats because Chuck Norris does not harm cats. Creepers know that this means that Chuck Norris likes cats and vice versa. Therefore, they know that if they harm a cat that Chuck Norris will harm THEM. They also know that Chuck Norris does not...",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 13,
+          "node_type": "Action",
+          "description": "v1_jokes_for_jokes_by_api_ninjas",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 14,
+          "node_type": "Action Input",
+          "description": "{}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"[{'joke': 'Why Does Snoop Dogg need an umbrella? For drizzle, my nizzle.'}]\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 15,
+          "node_type": "Action",
+          "description": "v1_jokes_for_jokes_by_api_ninjas",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 16,
+          "node_type": "Action Input",
+          "description": "{}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"[{'joke': 'Why Does Snoop Dogg need an umbrella? For drizzle, my nizzle.'}]\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 17,
+          "node_type": "Thought",
+          "description": "To get ten jokes from the Jokes by API-Ninjas, I will use the function \"v1_jokes_for_jokes_by_api_ninjas\".",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 18,
+          "node_type": "Action",
+          "description": "v1_jokes_for_jokes_by_api_ninjas",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": true,
+          "finished": false,
+          "depth": 19,
+          "node_type": "Action Input",
+          "description": "{}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"[{'joke': 'Why Does Snoop Dogg need an umbrella? For drizzle, my nizzle.'}]\"}",
+          "observation_code": 0,
+          "child_count": 0,
+          "expand_num": 0,
+          "io_state": {}
+        }
+      ],
+      "win": false
+    }
+  ],
+  "compare_candidates": [],
+  "forward_args": {
+    "single_chain_max_step": 18,
+    "pass_at": 1,
+    "answer": 1
+  },
+  "answer_generation": {
+    "valid_data": false,
+    "final_answer": "",
+    "function": [
+      {
+        "name": "v1_jokes_for_jokes_by_api_ninjas",
+        "description": "This is the subfunction for tool \"jokes_by_api_ninjas\", you can use this tool.The description of this function is: \"API Ninjas Jokes API endpoint.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "jokes_search_for_chuck_norris",
+        "description": "This is the subfunction for tool \"chuck_norris\", you can use this tool.The description of this function is: \"Free text search\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string",
+              "description": "The search term."
+            }
+          },
+          "required": [
+            "query"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "jokes_random_for_chuck_norris",
+        "description": "This is the subfunction for tool \"chuck_norris\", you can use this tool.The description of this function is: \"Retrieve a random chuck joke in JSON format.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "jokes_categories_for_chuck_norris",
+        "description": "This is the subfunction for tool \"chuck_norris\", you can use this tool.The description of this function is: \"Retrieve a list of available joke categories.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "Finish",
+        "description": "If you believe that you have obtained a result that can answer the task, please call this function to provide the final answer. Alternatively, if you recognize that you are unable to proceed with the task in the current state, call this function to restart. Remember: you must ALWAYS call this function at the end of your attempt, and the only part that will be shown to the user is the final answer, so it should contain sufficient information.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "return_type": {
+              "type": "string",
+              "enum": [
+                "give_answer",
+                "give_up_and_restart"
+              ]
+            },
+            "final_answer": {
+              "type": "string",
+              "description": "The final answer you want to give the user. You should have this field if \"return_type\"==\"give_answer\""
+            }
+          },
+          "required": [
+            "return_type"
+          ]
+        }
+      }
+    ],
+    "query_count": 9,
+    "total_tokens": 13707,
+    "train_messages": [],
+    "chain": [],
+    "query": "I'm planning a party for my friends and I want to include some fun jokes to entertain them. Can you provide me with ten jokes from the Jokes by API-Ninjas? Additionally, I would like to search for Chuck Norris jokes that mention cats. Can you find any for me?"
+  }
+}

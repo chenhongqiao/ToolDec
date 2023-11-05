@@ -1,0 +1,275 @@
+{
+  "win": false,
+  "try_count": 1,
+  "trys": [
+    {
+      "chain": [
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 1,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 2,
+          "node_type": "Action",
+          "description": "api_nutrition_data_for_edamam_nutrition_analysis",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 3,
+          "node_type": "Action Input",
+          "description": "{\n  \"ingr\": \"chicken breast\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 4,
+          "node_type": "Thought",
+          "description": "all_for_getguidelines\nAction Input: {",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 5,
+          "node_type": "Action",
+          "description": "all_for_getguidelines",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 6,
+          "node_type": "Action Input",
+          "description": "{}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"Message error...\", \"response\": \"Error code 500. You can try (1) Change your input (2) Call another function. (If the same error code is produced more than 4 times, please use Thought: I can not use these APIs, so I will stop. Final Answer: No Answer, please check the APIs.)\"}",
+          "observation_code": 11,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 7,
+          "node_type": "Thought",
+          "description": "Finish\nAction Input: {\n  \"return_type\": \"give_up_and_restart\"\n",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 8,
+          "node_type": "Action",
+          "description": "Finish",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": true,
+          "finished": false,
+          "depth": 9,
+          "node_type": "Action Input",
+          "description": "{\n  \"return_type\": \"give_up_and_restart\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"response\":\"chose to give up and restart\"}",
+          "observation_code": 4,
+          "child_count": 0,
+          "expand_num": 0,
+          "io_state": {}
+        }
+      ],
+      "win": false
+    }
+  ],
+  "compare_candidates": [],
+  "forward_args": {
+    "single_chain_max_step": 18,
+    "pass_at": 1,
+    "answer": 1
+  },
+  "answer_generation": {
+    "valid_data": false,
+    "final_answer": "",
+    "function": [
+      {
+        "name": "cleanhydrotocarbonfootprint_for_carbonfootprint",
+        "description": "This is the subfunction for tool \"carbonfootprint\", you can use this tool.The description of this function is: \"Return the CO2e in Kg from the consumption of clean hydro energy\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "energy": {
+              "type": "string",
+              "description": "The source of the clean energy. Can be Solar, Wind, HydroElectric, Biomass, Geothermal, Tidal or OtherCleanEnergy",
+              "example_value": "Solar"
+            },
+            "consumption": {
+              "type": "string",
+              "description": "The amount of energy consumed in KWH..",
+              "example_value": "500"
+            }
+          },
+          "required": [
+            "energy",
+            "consumption"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "treeequivalent_for_carbonfootprint",
+        "description": "This is the subfunction for tool \"carbonfootprint\", you can use this tool.The description of this function is: \"Calculate how many trees it took to create paper.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "weight": {
+              "type": "string",
+              "description": "The weight of the paper",
+              "example_value": "200"
+            },
+            "unit": {
+              "type": "string",
+              "description": "The unit (kg or lb) used for the weight",
+              "example_value": "kg"
+            }
+          },
+          "required": [
+            "weight",
+            "unit"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "carbonfootprintfromcartravel_for_carbonfootprint",
+        "description": "This is the subfunction for tool \"carbonfootprint\", you can use this tool.The description of this function is: \"Returns the CO2e in Kg from a travel by car\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "distance": {
+              "type": "string",
+              "description": "The distance in KM.",
+              "example_value": "100"
+            },
+            "vehicle": {
+              "type": "string",
+              "description": "The type of car, either SmallDieselCar, MediumDieselCar, LargeDieselCar, MediumHybridCar, LargeHybridCar, MediumLPGCar, LargeLPGCar, MediumCNGCar, LargeCNGCar, SmallPetrolVan, LargePetrolVan, SmallDielselVan, MediumDielselVan, LargeDielselVan, LPGVan, CNGV",
+              "example_value": "SmallDieselCar"
+            }
+          },
+          "required": [
+            "distance",
+            "vehicle"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "all_for_getguidelines",
+        "description": "This is the subfunction for tool \"getguidelines\", you can use this tool.The description of this function is: \"All guidelines\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "vac_for_getguidelines",
+        "description": "This is the subfunction for tool \"getguidelines\", you can use this tool.The description of this function is: \"Vaccinations only\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "api_nutrition_data_for_edamam_nutrition_analysis",
+        "description": "This is the subfunction for tool \"edamam_nutrition_analysis\", you can use this tool.The description of this function is: \"This returns the nutritional analysis for the specified food text by extracting information from a short unstructured food text (usually an ingredient line and returns the following structured data for the text: quantity, measure and food,) and if availabl\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "ingr": {
+              "type": "string",
+              "description": "The ingredient."
+            },
+            "nutrition_type": {
+              "type": "string",
+              "description": "Select between the cooking and food logging processor.",
+              "example_value": "cooking"
+            }
+          },
+          "required": [
+            "ingr"
+          ],
+          "optional": [
+            "nutrition_type"
+          ]
+        }
+      },
+      {
+        "name": "Finish",
+        "description": "If you believe that you have obtained a result that can answer the task, please call this function to provide the final answer. Alternatively, if you recognize that you are unable to proceed with the task in the current state, call this function to restart. Remember: you must ALWAYS call this function at the end of your attempt, and the only part that will be shown to the user is the final answer, so it should contain sufficient information.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "return_type": {
+              "type": "string",
+              "enum": [
+                "give_answer",
+                "give_up_and_restart"
+              ]
+            },
+            "final_answer": {
+              "type": "string",
+              "description": "The final answer you want to give the user. You should have this field if \"return_type\"==\"give_answer\""
+            }
+          },
+          "required": [
+            "return_type"
+          ]
+        }
+      }
+    ],
+    "query_count": 3,
+    "total_tokens": 9,
+    "train_messages": [],
+    "chain": [],
+    "query": "I'm a nutritionist and I need to analyze the nutritional content of different foods. Can you fetch the nutritional analysis for a variety of ingredients? Additionally, provide me with the guidelines for special dietary needs and allergen labels."
+  }
+}

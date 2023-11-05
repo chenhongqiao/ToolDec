@@ -1,0 +1,162 @@
+{
+  "win": false,
+  "try_count": 1,
+  "trys": [
+    {
+      "chain": [
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 1,
+          "node_type": "Action",
+          "description": "api_tracking_for_pack_send",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 2,
+          "node_type": "Action Input",
+          "description": "{\n  \"reference\": \"YZA890\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'type': 'https://tools.ietf.org/html/rfc7231#section-6.5.1', 'title': 'Bad Request', 'status': 400, 'traceId': '|b1da6e0c-47a57f57d8b1a7d2.'}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 3,
+          "node_type": "Action",
+          "description": "get_track_info_for_pridnestrovie_post",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 4,
+          "node_type": "Action Input",
+          "description": "{\n  \"track_number\": \"RB413450335SG\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"Function executing from my_tools.Logistics.pridnestrovie_post.api import get_track_info error...\\nExceeded 30 redirects.\", \"response\": \"\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 5,
+          "node_type": "Action",
+          "description": "Finish",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": true,
+          "finished": false,
+          "depth": 6,
+          "node_type": "Action Input",
+          "description": "{\n  \"return_type\": \"give_up_and_restart\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"response\":\"chose to give up and restart\"}",
+          "observation_code": 4,
+          "child_count": 0,
+          "expand_num": 0,
+          "io_state": {}
+        }
+      ],
+      "win": false
+    }
+  ],
+  "compare_candidates": [],
+  "forward_args": {
+    "single_chain_max_step": 18,
+    "pass_at": 1,
+    "answer": 1
+  },
+  "answer_generation": {
+    "valid_data": false,
+    "final_answer": "",
+    "function": [
+      {
+        "name": "api_tracking_for_pack_send",
+        "description": "This is the subfunction for tool \"pack_send\", you can use this tool.The description of this function is: \"If you support your Pack & Send Reference Number, we can provide your with some relevant information.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "reference": {
+              "type": "string",
+              "description": "",
+              "example_value": "ReferenceNumberHere"
+            }
+          },
+          "required": [
+            "reference"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "get_track_info_for_pridnestrovie_post",
+        "description": "This is the subfunction for tool \"pridnestrovie_post\", you can use this tool.The description of this function is: \"get_track_info_for_pridnestrovie_post by track number\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "track_number": {
+              "type": "string",
+              "description": "",
+              "example_value": "RB413450335SG"
+            }
+          },
+          "required": [
+            "track_number"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "Finish",
+        "description": "If you believe that you have obtained a result that can answer the task, please call this function to provide the final answer. Alternatively, if you recognize that you are unable to proceed with the task in the current state, call this function to restart. Remember: you must ALWAYS call this function at the end of your attempt, and the only part that will be shown to the user is the final answer, so it should contain sufficient information.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "return_type": {
+              "type": "string",
+              "enum": [
+                "give_answer",
+                "give_up_and_restart"
+              ]
+            },
+            "final_answer": {
+              "type": "string",
+              "description": "The final answer you want to give the user. You should have this field if \"return_type\"==\"give_answer\""
+            }
+          },
+          "required": [
+            "return_type"
+          ]
+        }
+      }
+    ],
+    "query_count": 3,
+    "total_tokens": 2491,
+    "train_messages": [],
+    "chain": [],
+    "query": "I'm organizing a charity auction and I need to track the delivery of the donated items. Can you give me the tracking details for the package I sent using Pack & Send? The reference number is YZA890. Additionally, I need to check the status of the package I sent through Pridnestrovie Post. The tracking number is RB413450335SG."
+  }
+}

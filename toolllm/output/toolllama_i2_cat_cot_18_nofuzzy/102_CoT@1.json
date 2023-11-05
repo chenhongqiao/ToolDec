@@ -1,0 +1,398 @@
+{
+  "win": false,
+  "try_count": 1,
+  "trys": [
+    {
+      "chain": [
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 1,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 2,
+          "node_type": "Action",
+          "description": "carriers_detect_for_trackingmore_v2",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 3,
+          "node_type": "Action Input",
+          "description": "{\n  \"trackingnumber\": \"YT2003521266065328\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'meta': {'code': 200, 'type': 'Success', 'message': 'Success'}, 'data': [{'name': 'Yun Express', 'code': 'yunexpress'}]}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 4,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 5,
+          "node_type": "Action",
+          "description": "carriers_detect_for_trackingmore_v2",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 6,
+          "node_type": "Action Input",
+          "description": "{\n  \"trackingnumber\": \"YT2003521266065328\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'meta': {'code': 200, 'type': 'Success', 'message': 'Success'}, 'data': [{'name': 'Yun Express', 'code': 'yunexpress'}]}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 7,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 8,
+          "node_type": "Action",
+          "description": "carriers_detect_for_trackingmore_v2",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 9,
+          "node_type": "Action Input",
+          "description": "{\n  \"trackingnumber\": \"YT2003521266065328\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'meta': {'code': 200, 'type': 'Success', 'message': 'Success'}, 'data': [{'name': 'Yun Express', 'code': 'yunexpress'}]}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 10,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 11,
+          "node_type": "Action",
+          "description": "carriers_detect_for_trackingmore_v2",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 12,
+          "node_type": "Action Input",
+          "description": "{\n  \"trackingnumber\": \"YT2003521266065328\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'meta': {'code': 200, 'type': 'Success', 'message': 'Success'}, 'data': [{'name': 'Yun Express', 'code': 'yunexpress'}]}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 13,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 14,
+          "node_type": "Action",
+          "description": "carriers_detect_for_trackingmore_v2",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 15,
+          "node_type": "Action Input",
+          "description": "{\n  \"trackingnumber\": \"YT2003521266065328\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'meta': {'code': 200, 'type': 'Success', 'message': 'Success'}, 'data': [{'name': 'Yun Express', 'code': 'yunexpress'}]}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 16,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 17,
+          "node_type": "Action",
+          "description": "carriers_detect_for_trackingmore_v2",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": true,
+          "finished": false,
+          "depth": 18,
+          "node_type": "Action Input",
+          "description": "{\n  \"trackingnumber\": \"YT2003521266065328\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'meta': {'code': 200, 'type': 'Success', 'message': 'Success'}, 'data': [{'name': 'Yun Express', 'code': 'yunexpress'}]}\"}",
+          "observation_code": 0,
+          "child_count": 0,
+          "expand_num": 0,
+          "io_state": {}
+        }
+      ],
+      "win": false
+    }
+  ],
+  "compare_candidates": [],
+  "forward_args": {
+    "single_chain_max_step": 18,
+    "pass_at": 1,
+    "answer": 1
+  },
+  "answer_generation": {
+    "valid_data": false,
+    "final_answer": "",
+    "function": [
+      {
+        "name": "get_track_info_for_pridnestrovie_post",
+        "description": "This is the subfunction for tool \"pridnestrovie_post\", you can use this tool.The description of this function is: \"get_track_info_for_pridnestrovie_post by track number\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "track_number": {
+              "type": "string",
+              "description": "",
+              "example_value": "RB413450335SG"
+            }
+          },
+          "required": [
+            "track_number"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "retorna_dados_do_endere_o_atrav_s_do_cep_for_cep_brazil",
+        "description": "This is the subfunction for tool \"cep_brazil\", you can use this tool.The description of this function is: \"Retorna dados endere\u00e7o\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "cepnumber": {
+              "type": "string",
+              "description": "",
+              "example_value": "75094080"
+            }
+          },
+          "required": [
+            "cepnumber"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "carriers_detect_for_trackingmore_v2",
+        "description": "This is the subfunction for tool \"trackingmore_v2\", you can use this tool.The description of this function is: \"Detect carrier by providing tracking number\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "trackingnumber": {
+              "type": "string",
+              "description": "The tracking number of parcel",
+              "example_value": "YT2003521266065328"
+            }
+          },
+          "required": [
+            "trackingnumber"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "packages_track_deprecated_for_trackingmore_v2",
+        "description": "This is the subfunction for tool \"trackingmore_v2\", you can use this tool.The description of this function is: \"Get tracking information of specific package\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "carriercode": {
+              "type": "string",
+              "description": "Carrier code gotten from .../carriers/list or carriers/detect endpoint",
+              "example_value": "yunexpress"
+            },
+            "trackingnumber": {
+              "type": "string",
+              "description": "Tracking number of package",
+              "example_value": "YT2003521266065328"
+            },
+            "lang": {
+              "type": "string",
+              "description": "One of the following : en|cn|es|it|ru",
+              "example_value": "en"
+            }
+          },
+          "required": [
+            "carriercode",
+            "trackingnumber"
+          ],
+          "optional": [
+            "lang"
+          ]
+        }
+      },
+      {
+        "name": "packages_v2_track_for_trackingmore_v2",
+        "description": "This is the subfunction for tool \"trackingmore_v2\", you can use this tool.The description of this function is: \"Get tracking information of specific package\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "trackingnumber": {
+              "type": "string",
+              "description": "Tracking number of package",
+              "example_value": "NY323068698GB"
+            }
+          },
+          "required": [
+            "trackingnumber"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "transitaire_for_transitaires",
+        "description": "This is the subfunction for tool \"transitaires\", you can use this tool.The description of this function is: \"R\u00e9cup\u00e8re un transitaire donn\u00e9e\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "is_id": {
+              "type": "string",
+              "description": "",
+              "example_value": "DOUANE_AGENCE_GONDRAND"
+            }
+          },
+          "required": [
+            "is_id"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "transitaires_for_transitaires",
+        "description": "This is the subfunction for tool \"transitaires\", you can use this tool.The description of this function is: \"Renvoie tous les transiatires\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "Finish",
+        "description": "If you believe that you have obtained a result that can answer the task, please call this function to provide the final answer. Alternatively, if you recognize that you are unable to proceed with the task in the current state, call this function to restart. Remember: you must ALWAYS call this function at the end of your attempt, and the only part that will be shown to the user is the final answer, so it should contain sufficient information.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "return_type": {
+              "type": "string",
+              "enum": [
+                "give_answer",
+                "give_up_and_restart"
+              ]
+            },
+            "final_answer": {
+              "type": "string",
+              "description": "The final answer you want to give the user. You should have this field if \"return_type\"==\"give_answer\""
+            }
+          },
+          "required": [
+            "return_type"
+          ]
+        }
+      }
+    ],
+    "query_count": 6,
+    "total_tokens": 18,
+    "train_messages": [],
+    "chain": [],
+    "query": "I need to track a package with the tracking number YT2003521266065328. Can you provide me with the carrier information and the current status? Additionally, I'm looking for a transitaires agency that can handle customs clearance. Thank you for your assistance!"
+  }
+}

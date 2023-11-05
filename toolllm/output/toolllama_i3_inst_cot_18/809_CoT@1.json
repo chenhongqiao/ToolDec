@@ -1,0 +1,511 @@
+{
+  "win": false,
+  "try_count": 1,
+  "trys": [
+    {
+      "chain": [
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 1,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 2,
+          "node_type": "Action",
+          "description": "newssearch_for_web_search",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 3,
+          "node_type": "Action Input",
+          "description": "{\n  \"pagesize\": 5,\n  \"autocorrect\": true,\n  \"q\": \"popular tourist attractions in Paris\",\n  \"pagenumber\": 1\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'message': \\\"API doesn't exists\\\"}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 4,
+          "node_type": "Thought",
+          "description": "newssearch_for_web_search\nAction Input: {\n  \"pagesize\": 5,\n  \"autocorrect\": true,\n  \"q\": \"popular tourist attractions in Paris\",\n  \"pagenumber\": 1\n",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 5,
+          "node_type": "Action",
+          "description": "newssearch_for_web_search",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 6,
+          "node_type": "Action Input",
+          "description": "{\n  \"pagesize\": 5,\n  \"autocorrect\": true,\n  \"q\": \"popular tourist attractions in Paris\",\n  \"pagenumber\": 1\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'message': \\\"API doesn't exists\\\"}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 7,
+          "node_type": "Thought",
+          "description": "rch_for_web_search\nAction Input: {\n  \"q\": \"tourist attractions in Paris\",\n  \"pagenumber\": 1,\n  \"pagesize\": 5,\n  \"autocorrect\": true\n",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 8,
+          "node_type": "Action",
+          "description": "arch_for_web_search",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 9,
+          "node_type": "Action Input",
+          "description": "{\n  \"q\": \"tourist attractions in Paris\",\n  \"pagenumber\": 1,\n  \"pagesize\": 5,\n  \"autocorrect\": true\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'message': \\\"API doesn't exists\\\"}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 10,
+          "node_type": "Thought",
+          "description": "or_real_time_product_search\nAction Input: {\n  \"q\": \"hotels in Paris near tourist attractions\"\n",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 11,
+          "node_type": "Action",
+          "description": "for_real_time_product_search",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 12,
+          "node_type": "Action Input",
+          "description": "{\n  \"q\": \"hotels in Paris near tourist attractions\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"Function executing from my_tools.eCommerce.real_time_product_search.api import product_reviews error...\\nproduct_reviews() got an unexpected keyword argument 'q'\", \"response\": \"\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 13,
+          "node_type": "Thought",
+          "description": "Finish\nAction Input: {\n  \"return_type\": \"give_up_and_restart\"\n",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 14,
+          "node_type": "Action",
+          "description": "Finish",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": true,
+          "finished": false,
+          "depth": 15,
+          "node_type": "Action Input",
+          "description": "{\n  \"return_type\": \"give_up_and_restart\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"response\":\"chose to give up and restart\"}",
+          "observation_code": 4,
+          "child_count": 0,
+          "expand_num": 0,
+          "io_state": {}
+        }
+      ],
+      "win": false
+    }
+  ],
+  "compare_candidates": [],
+  "forward_args": {
+    "single_chain_max_step": 18,
+    "pass_at": 1,
+    "answer": 1
+  },
+  "answer_generation": {
+    "valid_data": false,
+    "final_answer": "",
+    "function": [
+      {
+        "name": "spellcheck_for_web_search",
+        "description": "This is the subfunction for tool \"web_search\", you can use this tool.The description of this function is: \"Check spelling.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "text": {
+              "type": "string",
+              "description": "The text string to check for spelling errors.",
+              "example_value": "teylor swiift"
+            }
+          },
+          "required": [
+            "text"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "newssearch_for_web_search",
+        "description": "This is the subfunction for tool \"web_search\", you can use this tool.The description of this function is: \"Get news articles relevant for a given query.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "pagesize": {
+              "type": "integer",
+              "description": "The number of items per page. The maximum value is 50.",
+              "example_value": "10"
+            },
+            "autocorrect": {
+              "type": "boolean",
+              "description": "Automatically correct spelling.",
+              "example_value": true
+            },
+            "q": {
+              "type": "string",
+              "description": "The user's search query string.",
+              "example_value": "taylor swift"
+            },
+            "pagenumber": {
+              "type": "integer",
+              "description": "The page to view.",
+              "example_value": "1"
+            },
+            "topublisheddate": {
+              "type": "string",
+              "description": "The  published date and time for the newest article allowed.  For example: *2015-05-16T05:50:06.* See  [https://www.c-sharpcorner.com/blogs/date-and-time-format-in-c-sharp-programming1 ](url)for more possible DateTime formats. ",
+              "example_value": "null"
+            },
+            "safesearch": {
+              "type": "boolean",
+              "description": "A filter used to filter results for adult content.",
+              "example_value": false
+            },
+            "frompublisheddate": {
+              "type": "string",
+              "description": "The  published date and time for the oldest article allowed.  For example: *2015-05-16T05:50:06.* See  [https://www.c-sharpcorner.com/blogs/date-and-time-format-in-c-sharp-programming1 ](url)for more possible DateTime formats. ",
+              "example_value": "null"
+            },
+            "withthumbnails": {
+              "type": "boolean",
+              "description": "Show results with image thumbnails.",
+              "example_value": false
+            }
+          },
+          "required": [
+            "pagesize",
+            "autocorrect",
+            "q",
+            "pagenumber"
+          ],
+          "optional": [
+            "topublisheddate",
+            "safesearch",
+            "frompublisheddate",
+            "withthumbnails"
+          ]
+        }
+      },
+      {
+        "name": "imagesearch_for_web_search",
+        "description": "This is the subfunction for tool \"web_search\", you can use this tool.The description of this function is: \"Get relevant images for a given query.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "q": {
+              "type": "string",
+              "description": "The user's search query string.",
+              "example_value": "taylor swift"
+            },
+            "pagenumber": {
+              "type": "integer",
+              "description": "The page to view.",
+              "example_value": "1"
+            },
+            "pagesize": {
+              "type": "integer",
+              "description": "The number of items per page. The maximum value is 50.",
+              "example_value": "10"
+            },
+            "autocorrect": {
+              "type": "boolean",
+              "description": "Automatically correct spelling.",
+              "example_value": true
+            },
+            "safesearch": {
+              "type": "boolean",
+              "description": "A filter used to filter results for adult content.",
+              "example_value": false
+            }
+          },
+          "required": [
+            "q",
+            "pagenumber",
+            "pagesize",
+            "autocorrect"
+          ],
+          "optional": [
+            "safesearch"
+          ]
+        }
+      },
+      {
+        "name": "product_reviews_for_real_time_product_search",
+        "description": "This is the subfunction for tool \"real_time_product_search\", you can use this tool.The description of this function is: \"Get all product reviews. Infinite pagination/scrolling is supported using the *limit* and *offset* parameters.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "product_id": {
+              "type": "string",
+              "description": "Product id of the product for which to fetch reviews.",
+              "example_value": "11577822456427762145"
+            },
+            "country": {
+              "type": "string",
+              "description": "Country code of the region/country.\nValid values: see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2\nDefault: `us`.",
+              "example_value": "us"
+            },
+            "language": {
+              "type": "string",
+              "description": "The language of the results.\nValid values: see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes\nDefault: `en`.",
+              "example_value": "en"
+            },
+            "offset": {
+              "type": "string",
+              "description": "Number of reviews to skip.\nValid values: integers from 0-30000\nDefault: `0`."
+            },
+            "rating": {
+              "type": "string",
+              "description": "Only return reviews with user rating greater than the specified value.\nValid values: 1-5."
+            },
+            "limit": {
+              "type": "string",
+              "description": "Maximum number of product reviews to return.\nValid values: integers from 0-100.\nDefault: `10`."
+            }
+          },
+          "required": [
+            "product_id"
+          ],
+          "optional": [
+            "country",
+            "language",
+            "offset",
+            "rating",
+            "limit"
+          ]
+        }
+      },
+      {
+        "name": "product_offers_for_real_time_product_search",
+        "description": "This is the subfunction for tool \"real_time_product_search\", you can use this tool.The description of this function is: \"Get all offers available for a product.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "product_id": {
+              "type": "string",
+              "description": "Product id of the product for which to fetch offers.",
+              "example_value": "11577822456427762145"
+            },
+            "country": {
+              "type": "string",
+              "description": "Country code of the region/country to return offers for.\nValid values: see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2\nDefault: `us`.",
+              "example_value": "us"
+            },
+            "language": {
+              "type": "string",
+              "description": "The language of the results.\nValid values: see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes\nDefault: `en`.",
+              "example_value": "en"
+            }
+          },
+          "required": [
+            "product_id"
+          ],
+          "optional": [
+            "country",
+            "language"
+          ]
+        }
+      },
+      {
+        "name": "search_for_real_time_product_search",
+        "description": "This is the subfunction for tool \"real_time_product_search\", you can use this tool.The description of this function is: \"search_for_real_time_product_search for product offers - both free-form queries and GTIN/EAN are supported. Each page contains up to 30 product offers. Infinite pagination/scrolling is supported using the *page* parameter.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "q": {
+              "type": "string",
+              "description": "Free-form search query or a GTIN/EAN (e.g. *0194252014233*).",
+              "example_value": "Nike shoes"
+            },
+            "store_id": {
+              "type": "string",
+              "description": "Only return product offers from a specific store. Store IDs can be obtained from the Google Shopping URL after using the **Seller** filter by taking the first part of the `merchagg` variable (until the first *|*) within the `tbs` parameter.\n\n**Example**\naf"
+            },
+            "sort_by": {
+              "type": "string",
+              "description": "Sort product offers by best match, top rated, lowest or highest price.\nPossible values: `BEST_MATCH`, `TOP_RATED`, `LOWEST_PRICE`, `HIGHEST_PRICE`.\nDefault: `BEST_MATCH`."
+            },
+            "max_shipping_days": {
+              "type": "integer",
+              "description": "Only return product offers that offer shipping/delivery of up to specific number of days (i.e. shipping speed)."
+            },
+            "page": {
+              "type": "integer",
+              "description": "Results page to return.\nDefault: `1`."
+            },
+            "on_sale": {
+              "type": "boolean",
+              "description": "Only return product offers that are currently on sale.\nDefault: `false`."
+            },
+            "product_condition": {
+              "type": "string",
+              "description": "Only return products with a specific condition.\nPossible values: `NEW`, `USED`, `REFURBISHED`."
+            },
+            "free_shipping": {
+              "type": "boolean",
+              "description": "Only return product offers that offer free shipping/delivery.\nDefault: `false`."
+            },
+            "language": {
+              "type": "string",
+              "description": "The language of the results.\nValid values: see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes\nDefault: `en`.",
+              "example_value": "en"
+            },
+            "country": {
+              "type": "string",
+              "description": "Country code of the region/country to return offers for.\nValid values: see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2\nDefault: `us`.",
+              "example_value": "us"
+            },
+            "free_returns": {
+              "type": "boolean",
+              "description": "Only return product offers that offer free returns.\nDefault: `false`."
+            },
+            "max_price": {
+              "type": "integer",
+              "description": "Only return product offers with price lower than a certain value."
+            },
+            "min_price": {
+              "type": "integer",
+              "description": "Only return product offers with price greater than a certain value."
+            }
+          },
+          "required": [
+            "q"
+          ],
+          "optional": [
+            "store_id",
+            "sort_by",
+            "max_shipping_days",
+            "page",
+            "on_sale",
+            "product_condition",
+            "free_shipping",
+            "language",
+            "country",
+            "free_returns",
+            "max_price",
+            "min_price"
+          ]
+        }
+      },
+      {
+        "name": "Finish",
+        "description": "If you believe that you have obtained a result that can answer the task, please call this function to provide the final answer. Alternatively, if you recognize that you are unable to proceed with the task in the current state, call this function to restart. Remember: you must ALWAYS call this function at the end of your attempt, and the only part that will be shown to the user is the final answer, so it should contain sufficient information.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "return_type": {
+              "type": "string",
+              "enum": [
+                "give_answer",
+                "give_up_and_restart"
+              ]
+            },
+            "final_answer": {
+              "type": "string",
+              "description": "The final answer you want to give the user. You should have this field if \"return_type\"==\"give_answer\""
+            }
+          },
+          "required": [
+            "return_type"
+          ]
+        }
+      }
+    ],
+    "query_count": 5,
+    "total_tokens": 15,
+    "train_messages": [],
+    "chain": [],
+    "query": "I'm planning a trip to Paris with my family and we need some information to make the most of our visit. Can you provide me with news articles about popular tourist attractions in Paris? Additionally, I would like to see relevant images of these attractions to get a better idea of what to expect. Finally, please recommend some good hotels in Paris that are near these attractions."
+  }
+}

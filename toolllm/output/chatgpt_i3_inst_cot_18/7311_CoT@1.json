@@ -1,0 +1,475 @@
+{
+  "win": false,
+  "try_count": 1,
+  "trys": [
+    {
+      "chain": [
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 1,
+          "node_type": "Action",
+          "description": "list_of_cocktails_for_the_cocktail_db",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 2,
+          "node_type": "Action Input",
+          "description": "{}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"[{\\\"id\\\":\\\"1\\\",\\\"title\\\":\\\"Nutella and cognac coffee cocktail\\\",\\\"difficulty\\\":\\\"Easy\\\",\\\"image\\\":\\\"https://apipics.s3.amazonaws.com/coctails_api/1.jpg\\\"},{\\\"id\\\":\\\"2\\\",\\\"title\\\":\\\"Easy rhubarb cordial\\\",\\\"difficulty\\\":\\\"Easy\\\",\\\"image\\\":\\\"https://apipics.s3.amazonaws.com/coctails_api/2.jpg\\\"},{\\\"id\\\":\\\"3\\\",\\\"title\\\":\\\"Bottled chocolate orange negroni\\\",\\\"difficulty\\\":\\\"Easy\\\",\\\"image\\\":\\\"https://apipics.s3.amazonaws.com/coctails_api/3.jpg\\\"},{\\\"id\\\":\\\"4\\\",\\\"title\\\":\\\"Pickled bramble martini\\\",\\\"difficulty\\\":\\\"Easy\\\",\\\"image\\\":\\\"https://apipics.s3.amazonaws.com/coctails_api/4.jpg\\\"},{\\\"id\\\":\\\"5\\\",\\\"title\\\":\\\"Toasted marshmallow hot-buttered rum\\\",\\\"difficulty\\\":\\\"Easy\\\",\\\"image\\\":\\\"https://apipics.s3.amazonaws.com/coctails_api/5.jpg\\\"},{\\\"id\\\":\\\"6\\\",\\\"title\\\":\\\"Sangria\\\",\\\"difficulty\\\":\\\"Easy\\\",\\\"image\\\":\\\"https://apipics.s3.amazonaws.com/coctails_api/6.jpg\\\"},{\\\"id\\\":\\\"7\\\",\\\"title\\\":\\\"Umibozu yuzu cocktail\\\",\\\"difficulty\\\":\\\"Easy\\\",\\\"image\\\":\\\"https://apipics.s3.amazonaws.com/cocta...",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 3,
+          "node_type": "Action",
+          "description": "charts_track_for_shazam",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 4,
+          "node_type": "Action Input",
+          "description": "{}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'properties': {}, 'tracks': [{'layout': '5', 'type': 'MUSIC', 'key': '267429991', 'title': 'Makeba', 'subtitle': 'Jain', 'share': {'subject': 'Makeba - Jain', 'text': 'Makeba by Jain', 'href': 'https://www.shazam.com/track/267429991/makeba', 'image': 'https://is2-ssl.mzstatic.com/image/thumb/Music125/v4/5a/78/86/5a788626-308e-eb19-80e3-1b3b78ef1fe8/886446194783.jpg/400x400cc.jpg', 'twitter': 'I used @Shazam to discover Makeba by Jain.', 'html': 'https://www.shazam.com/snippets/email-share/267429991?lang=en-US&country=US', 'avatar': 'https://is5-ssl.mzstatic.com/image/thumb/Features116/v4/9d/93/ee/9d93ee11-53ed-d045-4b11-5f6f4b15f324/mzl.ztqrsgts.jpg/800x800cc.jpg', 'snapchat': 'https://www.shazam.com/partner/sc/track/267429991'}, 'images': {'background': 'https://is5-ssl.mzstatic.com/image/thumb/Features116/v4/9d/93/ee/9d93ee11-53ed-d045-4b11-5f6f4b15f324/mzl.ztqrsgts.jpg/800x800cc.jpg', 'coverart': 'https://is2-ssl.mzstatic.com/image/thumb/Music125/v4/5a/78/86/5a788626-308e-eb19-8...",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 5,
+          "node_type": "Action",
+          "description": "detailed_cocktail_recipe_by_id_for_the_cocktail_db",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 6,
+          "node_type": "Action Input",
+          "description": "{\n  \"is_id\": \"1\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 7,
+          "node_type": "Action",
+          "description": "detailed_cocktail_recipe_by_id_for_the_cocktail_db",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 8,
+          "node_type": "Action Input",
+          "description": "{\n  \"is_id\": \"2\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 9,
+          "node_type": "Action",
+          "description": "detailed_cocktail_recipe_by_id_for_the_cocktail_db",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 10,
+          "node_type": "Action Input",
+          "description": "{\n  \"is_id\": \"3\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 11,
+          "node_type": "Action",
+          "description": "detailed_cocktail_recipe_by_id_for_the_cocktail_db",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 12,
+          "node_type": "Action Input",
+          "description": "{\n  \"is_id\": \"4\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 13,
+          "node_type": "Action",
+          "description": "detailed_cocktail_recipe_by_id_for_the_cocktail_db",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 14,
+          "node_type": "Action Input",
+          "description": "{\n  \"is_id\": \"5\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 15,
+          "node_type": "Action",
+          "description": "detailed_cocktail_recipe_by_id_for_the_cocktail_db",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 16,
+          "node_type": "Action Input",
+          "description": "{\n  \"is_id\": \"6\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 17,
+          "node_type": "Action",
+          "description": "detailed_cocktail_recipe_by_id_for_the_cocktail_db",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": true,
+          "finished": false,
+          "depth": 18,
+          "node_type": "Action Input",
+          "description": "{\n  \"is_id\": \"7\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 0,
+          "expand_num": 0,
+          "io_state": {}
+        }
+      ],
+      "win": false
+    }
+  ],
+  "compare_candidates": [],
+  "forward_args": {
+    "single_chain_max_step": 18,
+    "pass_at": 1,
+    "answer": 1
+  },
+  "answer_generation": {
+    "valid_data": false,
+    "final_answer": "",
+    "function": [
+      {
+        "name": "marketbyid_for_bravenewcoin",
+        "description": "This is the subfunction for tool \"bravenewcoin\", you can use this tool.The description of this function is: \"Retrieves the details of an individual market. Supply the unique identifier (UUID) of the market.\n\nThe full list of all market UUIDs can be obtained from the Market endpoint.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "is_id": {
+              "type": "string",
+              "description": "UUID. The unique resource identifier of a market e.g.  BTC/USD = 6ea0d2ef-6dd0-4adb-ad32-f7f3db58ccbe"
+            }
+          },
+          "required": [
+            "is_id"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "assetticker_for_bravenewcoin",
+        "description": "This is the subfunction for tool \"bravenewcoin\", you can use this tool.The description of this function is: \"This free endpoint will return the latest details for an asset refreshed every 5 minutes with global USD spot price, 24 hour volume and supply.  The optional percentChange parameter provides the 1, 7 and 30 day percentage movements as additional payload.  \"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "assetid": {
+              "type": "string",
+              "description": "UUID. The unique resource identifier of an asset e.g.  BTC = f1ff77b6-3ab4-4719-9ded-2fc7e71cff1f"
+            },
+            "percentchange": {
+              "type": "string",
+              "description": "true or false (default).  When true the  percentage changes in the price and 24 hour volume across 1, 7 and 30 days will be included in the response payload. "
+            }
+          },
+          "required": [
+            "assetid"
+          ],
+          "optional": [
+            "percentchange"
+          ]
+        }
+      },
+      {
+        "name": "dailyohlcv_for_bravenewcoin",
+        "description": "This is the subfunction for tool \"bravenewcoin\", you can use this tool.The description of this function is: \"This endpoint returns end-of-day open, high, low, close prices and volumes (OHLCV) for market weighted averages (MWA) or global weighted averages (GWA). The 24hr period for end of day is based on an open/close at 00:00:00 UTC. Parameters may be used to sel\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "detailed_cocktail_recipe_by_id_for_the_cocktail_db",
+        "description": "This is the subfunction for tool \"the_cocktail_db\", you can use this tool.The description of this function is: \"Get Cocktail by ID\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "is_id": {
+              "type": "string",
+              "description": "",
+              "example_value": "45"
+            }
+          },
+          "required": [
+            "is_id"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "list_of_cocktails_for_the_cocktail_db",
+        "description": "This is the subfunction for tool \"the_cocktail_db\", you can use this tool.The description of this function is: \"This endpoint responds with a list of cocktails that includes their names and images, as well as their IDs, which must be provided in the \"Detailed Cocktail Recipe by ID\" endpoint to receive the detailed cocktail recipe.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "charts_track_for_shazam",
+        "description": "This is the subfunction for tool \"shazam\", you can use this tool.The description of this function is: \"Get all popular songs in specific chart\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "search_for_shazam",
+        "description": "This is the subfunction for tool \"shazam\", you can use this tool.The description of this function is: \"Search for songs, artists that match input term\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string",
+              "description": "Full name of songs or artists",
+              "example_value": "kiss the rain"
+            },
+            "locale": {
+              "type": "string",
+              "description": "The language code",
+              "example_value": "en-US"
+            },
+            "limit": {
+              "type": "integer",
+              "description": "For paging purpose, maximum is fixed at 5 items per response",
+              "example_value": "5"
+            },
+            "offset": {
+              "type": "integer",
+              "description": "For paging purpose",
+              "example_value": "0"
+            }
+          },
+          "required": [
+            "term"
+          ],
+          "optional": [
+            "locale",
+            "limit",
+            "offset"
+          ]
+        }
+      },
+      {
+        "name": "auto_complete_for_shazam",
+        "description": "This is the subfunction for tool \"shazam\", you can use this tool.The description of this function is: \"Get suggestions by word or phrase\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string",
+              "description": "Any word or phrase of song, artist, etc... that you are familiar with",
+              "example_value": "kiss the"
+            },
+            "locale": {
+              "type": "string",
+              "description": "The language code",
+              "example_value": "en-US"
+            }
+          },
+          "required": [
+            "term"
+          ],
+          "optional": [
+            "locale"
+          ]
+        }
+      },
+      {
+        "name": "place_distance_for_geodb_cities",
+        "description": "This is the subfunction for tool \"geodb_cities\", you can use this tool.The description of this function is: \"Gets this place's distance to the given place.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "placeid": {
+              "type": "string",
+              "description": ""
+            },
+            "distanceunit": {
+              "type": "string",
+              "description": "The unit of distance: KM | MI [default]"
+            },
+            "toplaceid": {
+              "type": "string",
+              "description": "The distance to this place",
+              "example_value": "Q60"
+            }
+          },
+          "required": [
+            "placeid"
+          ],
+          "optional": [
+            "distanceunit",
+            "toplaceid"
+          ]
+        }
+      },
+      {
+        "name": "currencies_for_geodb_cities",
+        "description": "This is the subfunction for tool \"geodb_cities\", you can use this tool.The description of this function is: \"Get currencies, filtering by optional criteria. If no criteria are set, you will get back all known currencies.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "countries_for_geodb_cities",
+        "description": "This is the subfunction for tool \"geodb_cities\", you can use this tool.The description of this function is: \"Find countries, filtering by optional criteria. If no criteria are set, you will get back all known countries.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "Finish",
+        "description": "If you believe that you have obtained a result that can answer the task, please call this function to provide the final answer. Alternatively, if you recognize that you are unable to proceed with the task in the current state, call this function to restart. Remember: you must ALWAYS call this function at the end of your attempt, and the only part that will be shown to the user is the final answer, so it should contain sufficient information.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "return_type": {
+              "type": "string",
+              "enum": [
+                "give_answer",
+                "give_up_and_restart"
+              ]
+            },
+            "final_answer": {
+              "type": "string",
+              "description": "The final answer you want to give the user. You should have this field if \"return_type\"==\"give_answer\""
+            }
+          },
+          "required": [
+            "return_type"
+          ]
+        }
+      }
+    ],
+    "query_count": 9,
+    "total_tokens": 22148,
+    "train_messages": [],
+    "chain": [],
+    "query": "I'm organizing a surprise birthday party for my mom and I want to make it extra special. Can you suggest some cocktail recipes that I can prepare for the party? Also, provide me with a playlist of her favorite songs to create a nostalgic ambiance. Additionally, find a nearby venue with a beautiful garden for the party."
+  }
+}

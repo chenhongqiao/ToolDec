@@ -1,0 +1,397 @@
+{
+  "win": false,
+  "try_count": 1,
+  "trys": [
+    {
+      "chain": [
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 1,
+          "node_type": "Action",
+          "description": "v1_whois_for_whois_by_api_ninjas",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 2,
+          "node_type": "Action Input",
+          "description": "{\n  \"domain\": \"example.com\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'domain_name': 'example.com', 'registrar': 'reserved-internet assigned numbers authority', 'whois_server': 'whois.iana.org', 'updated_date': 1683904415, 'creation_date': 808372800, 'expiration_date': 1691899200, 'name_servers': ['b.iana-servers.net', 'a.iana-servers.net'], 'dnssec': 'signeddelegation'}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 3,
+          "node_type": "Action",
+          "description": "rds_provide_any_integer_number_for_all_purpose_complex_converter",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 4,
+          "node_type": "Action Input",
+          "description": "{\n  \"number\": 1234567890\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'Provided Number': 1234567890, 'Converted to Words': 'one billion, two hundred and thirty-four million, five hundred and sixty-seven thousand, eight hundred and ninetieth'}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 5,
+          "node_type": "Action",
+          "description": "ext_to_speech_provide_any_text_for_all_purpose_complex_converter",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 6,
+          "node_type": "Action Input",
+          "description": "{\n  \"text\": \"This is the project documentation.\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 7,
+          "node_type": "Action",
+          "description": "ext_to_speech_provide_any_text_for_all_purpose_complex_converter",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 8,
+          "node_type": "Action Input",
+          "description": "{\n  \"text\": \"This is the project documentation.\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 9,
+          "node_type": "Action",
+          "description": "ext_to_speech_provide_any_text_for_all_purpose_complex_converter",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 10,
+          "node_type": "Action Input",
+          "description": "{\n  \"text\": \"This is the project documentation.\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 11,
+          "node_type": "Action",
+          "description": "ech_provide_any_integer_number_for_all_purpose_complex_converter",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 12,
+          "node_type": "Action Input",
+          "description": "{\n  \"number\": 1234567890\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"\\ufffd\\ufffdD\\ufffd\\u0000\\u0000\\u0000\\u0003H\\u0001@\\u0000\\u0000\\ufffd.:\\ufffd\\u001f\\ufffde\\ufffd\\u007f\\ufffd\\ufffd\\ufffd\\u0010\\u0005\\u0000\\ufffd\\ufffd\\u06cew\\ufffd4\\u0010Y<\\ufffd\\ufffdd\\ufffd'<\\ufffdU\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\u077a\\ufffd\\ufffd\\ufffd\\ufffd\\ufffd\\tCC\\ufffd~S\\ufffd\\f\\ufffd\\u0004\\ufffd\\ufffd\\ufffd\\ufffdLX\\ufffdj1p\\u0018\\ufffd`\\u0002\\ufffdH@\\ufffd?\\u001e\\ufffd\\u0407\\ufffd#\\ufffd\\ufffd\\ufffdD\\ufffdS\\u0010\\u0019\\ufffdD\\u0001\\ufffd(\\u0000L\\ufffdX1p(\\ufffd\\ufffd\\ufffd3\\u0018\\ufffd\\ufffd\\u0013CS\\u000b\\ufffd\\u030a3\\u0012\\u0007\\u0016\\ufffd\\ufffd\\u0000\\u0003\\u0007\\ufffd\\u01c1\\ufffd\\ufffdj\\u0012\\ufffdn59\\u0010\\u00020\\u000b]\\ufffd\\ufffdCF&}\\ufffd\\ufffd}W\\ufffdos\\ufffd\\ufffd\\u001c\\ufffdY\\\\\\ufffdu\\ufffd\\ufffd?K\\ufffdt:On\\ufffdP_\\ucc5e\\ufffdX\\ufffd\\ufffdD\\ufffde\\u001a\\ufffd6H\\u0001\\ufffdX\\u0000\\ufffd\\ufffd\\ufffd\\ufffd\\u05cc\\u0015\\u0011\\u0015L\\ufffd\\u0005\\u0018\\u0006\\u001a\\ufffd\\ufffd-\\ufffd\\ufffd\\u0003\\ufffdB@P4b\\b\\ufffd`\\ufffdf\\ufffd8`\\ufffd\\u0010c\\ufffd\\u000b\\n:\\ufffd\\u0011\\uf...",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 13,
+          "node_type": "Action",
+          "description": "ext_to_speech_provide_any_text_for_all_purpose_complex_converter",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 14,
+          "node_type": "Action Input",
+          "description": "{\n  \"text\": \"This is the project documentation.\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 15,
+          "node_type": "Action",
+          "description": "ext_to_speech_provide_any_text_for_all_purpose_complex_converter",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 16,
+          "node_type": "Action Input",
+          "description": "{\n  \"text\": \"This is the project documentation.\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 17,
+          "node_type": "Action",
+          "description": "Finish",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": true,
+          "finished": false,
+          "depth": 18,
+          "node_type": "Action Input",
+          "description": "{\n  \"return_type\": \"give_up_and_restart\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"response\":\"chose to give up and restart\"}",
+          "observation_code": 4,
+          "child_count": 0,
+          "expand_num": 0,
+          "io_state": {}
+        }
+      ],
+      "win": false
+    }
+  ],
+  "compare_candidates": [],
+  "forward_args": {
+    "single_chain_max_step": 18,
+    "pass_at": 1,
+    "answer": 1
+  },
+  "answer_generation": {
+    "valid_data": false,
+    "final_answer": "",
+    "function": [
+      {
+        "name": "v1_whois_for_whois_by_api_ninjas",
+        "description": "This is the subfunction for tool \"whois_by_api_ninjas\", you can use this tool.The description of this function is: \"API Ninjas Whois API endpoint. Returns domain registration details (e.g. registrar, contact information, expiration date, name servers) about a particular domain name.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "domain": {
+              "type": "string",
+              "description": "valid domain to check.",
+              "example_value": "example.com"
+            }
+          },
+          "required": [
+            "domain"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "c_versions_for_c_code_compiler",
+        "description": "This is the subfunction for tool \"c_code_compiler\", you can use this tool.The description of this function is: \"c_versions_for_c_code_compiler\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "isbehindcdn_for_isbehindcdn",
+        "description": "This is the subfunction for tool \"isbehindcdn\", you can use this tool.The description of this function is: \"Check if domain is fronted by CDN provider.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "domainname": {
+              "type": "string",
+              "description": "",
+              "example_value": "example.com"
+            }
+          },
+          "required": [
+            "domainname"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "rds_provide_any_integer_number_for_all_purpose_complex_converter",
+        "description": "This is the subfunction for tool \"all_purpose_complex_converter\", you can use this tool.The description of this function is: \"Convert any number to words.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Pass only Integer Numbers! ",
+              "example_value": "2356564546548979878435435453456464"
+            },
+            "to_convert": {
+              "type": "string",
+              "description": "By Default the number will be converted to cardinal, if you wan to convert it into specific format such as ordinal, ordinal_num, year or currency than you can specify it here. ",
+              "example_value": "ordinal"
+            }
+          },
+          "required": [
+            "number"
+          ],
+          "optional": [
+            "to_convert"
+          ]
+        }
+      },
+      {
+        "name": "ech_provide_any_integer_number_for_all_purpose_complex_converter",
+        "description": "This is the subfunction for tool \"all_purpose_complex_converter\", you can use this tool.The description of this function is: \"Converting any integer number to Speech\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "integer",
+              "description": "Pass Only Integer Number!",
+              "example_value": "12345345483453456434354131"
+            },
+            "lang": {
+              "type": "string",
+              "description": "Select Language , By default  ( en-us ) is supported, \nHit GET Languages Endpoint to get a list of all supported languages.",
+              "example_value": "en"
+            }
+          },
+          "required": [
+            "number"
+          ],
+          "optional": [
+            "lang"
+          ]
+        }
+      },
+      {
+        "name": "ext_to_speech_provide_any_text_for_all_purpose_complex_converter",
+        "description": "This is the subfunction for tool \"all_purpose_complex_converter\", you can use this tool.The description of this function is: \"Convert Any Text To Speech.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "text": {
+              "type": "string",
+              "description": "Support Both Text and Numbers. \nCan Pass Text Such as (\\\"any Thing to convert\\\")\nor \nCan Pass Any Number such as 1029383833384474",
+              "example_value": "I am using All Purpose Complex Converter API for My Daily Tasks."
+            },
+            "lang": {
+              "type": "string",
+              "description": "Select Language , By default  ( en-us ) is supported, \nHit GET Languages Endpoint to get a list of all supported languages.",
+              "example_value": "en"
+            }
+          },
+          "required": [
+            "text"
+          ],
+          "optional": [
+            "lang"
+          ]
+        }
+      },
+      {
+        "name": "Finish",
+        "description": "If you believe that you have obtained a result that can answer the task, please call this function to provide the final answer. Alternatively, if you recognize that you are unable to proceed with the task in the current state, call this function to restart. Remember: you must ALWAYS call this function at the end of your attempt, and the only part that will be shown to the user is the final answer, so it should contain sufficient information.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "return_type": {
+              "type": "string",
+              "enum": [
+                "give_answer",
+                "give_up_and_restart"
+              ]
+            },
+            "final_answer": {
+              "type": "string",
+              "description": "The final answer you want to give the user. You should have this field if \"return_type\"==\"give_answer\""
+            }
+          },
+          "required": [
+            "return_type"
+          ]
+        }
+      }
+    ],
+    "query_count": 9,
+    "total_tokens": 15367,
+    "train_messages": [],
+    "chain": [],
+    "query": "I'm working on a project and need to fetch the domain registration details for a specific website. Additionally, convert a large number to words for better readability. Furthermore, provide me with a speech conversion of the project documentation for a presentation."
+  }
+}

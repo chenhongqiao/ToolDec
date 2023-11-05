@@ -1,0 +1,423 @@
+{
+  "win": false,
+  "try_count": 1,
+  "trys": [
+    {
+      "chain": [
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 1,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 2,
+          "node_type": "Action",
+          "description": "jokes_search_for_chuck_norris",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 3,
+          "node_type": "Action Input",
+          "description": "{\n  \"query\": \"programming\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'total': 1, 'result': [{'categories': ['dev'], 'created_at': '2020-01-05 13:42:19.324003', 'icon_url': 'https://assets.chucknorris.host/img/avatar/chuck-norris.png', 'id': '2nd0jxvvqnwpvagswww-lg', 'updated_at': '2020-01-05 13:42:19.324003', 'url': 'https://api.chucknorris.io/jokes/2nd0jxvvqnwpvagswww-lg', 'value': 'Chuck Norris insists on strongly-typed programming languages.'}]}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 4,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 5,
+          "node_type": "Action",
+          "description": "get_year_fact_for_numbers",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 6,
+          "node_type": "Action Input",
+          "description": "{\n  \"year\": \"1492\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'date': 'October 12', 'text': \\\"Christopher Columbus' expedition makes landfall in the Caribbean and lands on Guanahani, but he believes he has reached the East Indies\\\", 'number': 1492, 'found': True, 'type': 'year'}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 7,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 8,
+          "node_type": "Action",
+          "description": "v1_trivia_for_trivia_by_api_ninjas",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 9,
+          "node_type": "Action Input",
+          "description": "{}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"[{'category': 'geography', 'question': \\\"Australia:- Australia Produces Over 90% Of One Of The Earth's Semi Precious Stones Which One \\\", 'answer': 'Opal'}]\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 10,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 11,
+          "node_type": "Action",
+          "description": "jokes_search_for_chuck_norris",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 12,
+          "node_type": "Action Input",
+          "description": "{\n  \"query\": \"programming\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'total': 1, 'result': [{'categories': ['dev'], 'created_at': '2020-01-05 13:42:19.324003', 'icon_url': 'https://assets.chucknorris.host/img/avatar/chuck-norris.png', 'id': '2nd0jxvvqnwpvagswww-lg', 'updated_at': '2020-01-05 13:42:19.324003', 'url': 'https://api.chucknorris.io/jokes/2nd0jxvvqnwpvagswww-lg', 'value': 'Chuck Norris insists on strongly-typed programming languages.'}]}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 13,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 14,
+          "node_type": "Action",
+          "description": "get_year_fact_for_numbers",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 15,
+          "node_type": "Action Input",
+          "description": "{\n  \"year\": \"1492\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'date': 'October 12', 'text': \\\"Christopher Columbus' expedition makes landfall in the Caribbean and lands on Guanahani, but he believes he has reached the East Indies\\\", 'number': 1492, 'found': True, 'type': 'year'}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 16,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 17,
+          "node_type": "Action",
+          "description": "get_year_fact_for_numbers",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": true,
+          "finished": false,
+          "depth": 18,
+          "node_type": "Action Input",
+          "description": "{\n  \"year\": \"1492\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'date': 'October 12', 'text': \\\"Christopher Columbus' expedition makes landfall in the Caribbean and lands on Guanahani, but he believes he has reached the East Indies\\\", 'number': 1492, 'found': True, 'type': 'year'}\"}",
+          "observation_code": 0,
+          "child_count": 0,
+          "expand_num": 0,
+          "io_state": {}
+        }
+      ],
+      "win": false
+    }
+  ],
+  "compare_candidates": [],
+  "forward_args": {
+    "single_chain_max_step": 18,
+    "pass_at": 1,
+    "answer": 1
+  },
+  "answer_generation": {
+    "valid_data": false,
+    "final_answer": "",
+    "function": [
+      {
+        "name": "jokes_search_for_chuck_norris",
+        "description": "This is the subfunction for tool \"chuck_norris\", you can use this tool.The description of this function is: \"Free text search\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string",
+              "description": "The search term."
+            }
+          },
+          "required": [
+            "query"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "jokes_random_for_chuck_norris",
+        "description": "This is the subfunction for tool \"chuck_norris\", you can use this tool.The description of this function is: \"Retrieve a random chuck joke in JSON format.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "jokes_categories_for_chuck_norris",
+        "description": "This is the subfunction for tool \"chuck_norris\", you can use this tool.The description of this function is: \"Retrieve a list of available joke categories.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "v1_trivia_for_trivia_by_api_ninjas",
+        "description": "This is the subfunction for tool \"trivia_by_api_ninjas\", you can use this tool.The description of this function is: \"API Ninjas Trivia API endpoint\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "get_trivia_fact_for_numbers",
+        "description": "This is the subfunction for tool \"numbers\", you can use this tool.The description of this function is: \"Get a trivia fact about a number\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "string",
+              "description": "The integer of interest",
+              "example_value": "42"
+            },
+            "fragment": {
+              "type": "string",
+              "description": "Add \"?fragment=true\" to return the fact as a sentence fragment that can be easily included as part of a larger sentence. This means that the first word is lowercase and ending punctuation is omitted. For trivia and math, a noun phrase is returned that can ",
+              "example_value": true
+            },
+            "notfound": {
+              "type": "string",
+              "description": "Specifies what to return if the number is not found. Value can be \"default\" (to return a canned message), \"floor\" (to round down to the largest number that does have an associated fact, and return that fact), or \"ceil\" (which is like floor but rounds up to",
+              "example_value": "floor"
+            },
+            "json": {
+              "type": "string",
+              "description": "Specify \"true\" to return result as JSON instead of plaintext.",
+              "example_value": true
+            }
+          },
+          "required": [
+            "number"
+          ],
+          "optional": [
+            "fragment",
+            "notfound",
+            "json"
+          ]
+        }
+      },
+      {
+        "name": "get_year_fact_for_numbers",
+        "description": "This is the subfunction for tool \"numbers\", you can use this tool.The description of this function is: \"Get a fact about a year\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "year": {
+              "type": "string",
+              "description": "The year of interest",
+              "example_value": "1492"
+            },
+            "fragment": {
+              "type": "string",
+              "description": "Add \"?fragment=true\" to return the fact as a sentence fragment that can be easily included as part of a larger sentence. This means that the first word is lowercase and ending punctuation is omitted. For trivia and math, a noun phrase is returned that can ",
+              "example_value": true
+            },
+            "json": {
+              "type": "string",
+              "description": "Specify \"true\" to return result as JSON instead of plaintext.",
+              "example_value": true
+            }
+          },
+          "required": [
+            "year"
+          ],
+          "optional": [
+            "fragment",
+            "json"
+          ]
+        }
+      },
+      {
+        "name": "get_math_fact_for_numbers",
+        "description": "This is the subfunction for tool \"numbers\", you can use this tool.The description of this function is: \"Get a mathematical property about a number\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "string",
+              "description": "The integer of interest",
+              "example_value": "1729"
+            },
+            "fragment": {
+              "type": "string",
+              "description": "Add \"?fragment=true\" to return the fact as a sentence fragment that can be easily included as part of a larger sentence. This means that the first word is lowercase and ending punctuation is omitted. For trivia and math, a noun phrase is returned that can ",
+              "example_value": true
+            },
+            "json": {
+              "type": "string",
+              "description": "Specify \"true\" to return result as JSON instead of plaintext.",
+              "example_value": true
+            }
+          },
+          "required": [
+            "number"
+          ],
+          "optional": [
+            "fragment",
+            "json"
+          ]
+        }
+      },
+      {
+        "name": "getgamelevel_for_music_trivia",
+        "description": "This is the subfunction for tool \"music_trivia\", you can use this tool.The description of this function is: \"get a game level with a level parameter. The level this does not imply difficulty\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "Finish",
+        "description": "If you believe that you have obtained a result that can answer the task, please call this function to provide the final answer. Alternatively, if you recognize that you are unable to proceed with the task in the current state, call this function to restart. Remember: you must ALWAYS call this function at the end of your attempt, and the only part that will be shown to the user is the final answer, so it should contain sufficient information.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "return_type": {
+              "type": "string",
+              "enum": [
+                "give_answer",
+                "give_up_and_restart"
+              ]
+            },
+            "final_answer": {
+              "type": "string",
+              "description": "The final answer you want to give the user. You should have this field if \"return_type\"==\"give_answer\""
+            }
+          },
+          "required": [
+            "return_type"
+          ]
+        }
+      }
+    ],
+    "query_count": 6,
+    "total_tokens": 18,
+    "train_messages": [],
+    "chain": [],
+    "query": "Can you find a Chuck Norris joke that mentions the word 'programming' and provide a trivia fact about the year 1492? Also, give me a random trivia question from the gaming category."
+  }
+}

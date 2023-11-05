@@ -1,0 +1,460 @@
+{
+  "win": false,
+  "try_count": 1,
+  "trys": [
+    {
+      "chain": [
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 1,
+          "node_type": "Action",
+          "description": "genre_for_deezer",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 2,
+          "node_type": "Action Input",
+          "description": "{\n  \"is_id\": \"0\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'id': 0, 'name': 'All', 'picture': 'https://api.deezer.com/genre/0/image', 'picture_small': 'https://e-cdns-images.dzcdn.net/images/misc//56x56-000000-80-0-0.jpg', 'picture_medium': 'https://e-cdns-images.dzcdn.net/images/misc//250x250-000000-80-0-0.jpg', 'picture_big': 'https://e-cdns-images.dzcdn.net/images/misc//500x500-000000-80-0-0.jpg', 'picture_xl': 'https://e-cdns-images.dzcdn.net/images/misc//1000x1000-000000-80-0-0.jpg', 'type': 'genre'}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 3,
+          "node_type": "Action",
+          "description": "search_for_deezer",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 4,
+          "node_type": "Action Input",
+          "description": "{\n  \"q\": \"rock\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 5,
+          "node_type": "Action",
+          "description": "search_for_deezer",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 6,
+          "node_type": "Action Input",
+          "description": "{\n  \"q\": \"pop\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 7,
+          "node_type": "Action",
+          "description": "search_for_deezer",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 8,
+          "node_type": "Action Input",
+          "description": "{\n  \"q\": \"hip hop\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 9,
+          "node_type": "Action",
+          "description": "search_for_deezer",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 10,
+          "node_type": "Action Input",
+          "description": "{\n  \"q\": \"jazz\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 11,
+          "node_type": "Action",
+          "description": "search_for_deezer",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 12,
+          "node_type": "Action Input",
+          "description": "{\n  \"q\": \"country\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 13,
+          "node_type": "Action",
+          "description": "search_for_shazam",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 14,
+          "node_type": "Action Input",
+          "description": "{\n  \"term\": \"rock\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'tracks': {'hits': [{'track': {'layout': '5', 'type': 'MUSIC', 'key': '634141231', 'title': 'Just Wanna Rock', 'subtitle': 'Lil Uzi Vert', 'share': {'subject': 'Just Wanna Rock - Lil Uzi Vert', 'text': 'Just Wanna Rock by Lil Uzi Vert', 'href': 'https://www.shazam.com/track/634141231/just-wanna-rock', 'image': 'https://is5-ssl.mzstatic.com/image/thumb/Music126/v4/7f/a6/eb/7fa6eb94-2834-e7b3-9e19-ce80248a5a5f/075679677983.jpg/400x400cc.jpg', 'twitter': 'I used @Shazam to discover Just Wanna Rock by Lil Uzi Vert.', 'html': 'https://www.shazam.com/snippets/email-share/634141231?lang=en-US&country=US', 'avatar': 'https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages116/v4/60/34/22/603422d2-2e91-10ea-6212-7b7b56b32ce9/d5583d12-91c4-40ce-b81f-f6af9ab5ae10_ami-identity-90c70b0a82de3a94a46c3ad23b22d0e4-2023-06-30T02-55-20.668Z_cropped.png/800x800cc.jpg', 'snapchat': 'https://www.shazam.com/partner/sc/track/634141231'}, 'images': {'background': 'https://is1-ssl.mzstatic.com/image/thumb/A...",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 15,
+          "node_type": "Action",
+          "description": "song_info_for_soundcloud",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 16,
+          "node_type": "Action Input",
+          "description": "{\n  \"track_url\": \"https://www.shazam.com/track/634141231/just-wanna-rock\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 17,
+          "node_type": "Action",
+          "description": "search_for_shazam",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": true,
+          "finished": false,
+          "depth": 18,
+          "node_type": "Action Input",
+          "description": "{\n  \"term\": \"pop\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'tracks': {'hits': [{'track': {'layout': '5', 'type': 'MUSIC', 'key': '616373370', 'title': 'POP!', 'subtitle': 'NAYEON', 'share': {'subject': 'POP! - NAYEON', 'text': 'POP! by NAYEON', 'href': 'https://www.shazam.com/track/616373370/pop', 'image': 'https://is5-ssl.mzstatic.com/image/thumb/Music122/v4/3f/49/ec/3f49ecb2-cb91-dd28-45b9-a31326d7e63b/738676859614_Cover.jpg/400x400cc.jpg', 'twitter': 'I used @Shazam to discover POP! by NAYEON.', 'html': 'https://www.shazam.com/snippets/email-share/616373370?lang=en-US&country=US', 'avatar': 'https://is5-ssl.mzstatic.com/image/thumb/Music112/v4/bc/c7/aa/bcc7aaac-311a-bd86-fd0d-3904d56a06fb/pr_source.png/800x800cc.jpg', 'snapchat': 'https://www.shazam.com/partner/sc/track/616373370'}, 'images': {'background': 'https://is5-ssl.mzstatic.com/image/thumb/Music112/v4/bc/c7/aa/bcc7aaac-311a-bd86-fd0d-3904d56a06fb/pr_source.png/800x800cc.jpg', 'coverart': 'https://is5-ssl.mzstatic.com/image/thumb/Music122/v4/3f/49/ec/3f49ecb2-cb91-dd28-45b9-a313...",
+          "observation_code": 0,
+          "child_count": 0,
+          "expand_num": 0,
+          "io_state": {}
+        }
+      ],
+      "win": false
+    }
+  ],
+  "compare_candidates": [],
+  "forward_args": {
+    "single_chain_max_step": 18,
+    "pass_at": 1,
+    "answer": 1
+  },
+  "answer_generation": {
+    "valid_data": false,
+    "final_answer": "",
+    "function": [
+      {
+        "name": "search_for_soundcloud",
+        "description": "This is the subfunction for tool \"soundcloud\", you can use this tool.The description of this function is: \"Search the soundcloud, possible values for type are \"track\", \"user\", \"playlist\", \"all\".\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string",
+              "description": "",
+              "example_value": "all"
+            },
+            "query": {
+              "type": "string",
+              "description": "",
+              "example_value": "almost lover"
+            }
+          },
+          "required": [
+            "type",
+            "query"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "playlist_info_for_soundcloud",
+        "description": "This is the subfunction for tool \"soundcloud\", you can use this tool.The description of this function is: \"Get playlist info.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "playlist_url": {
+              "type": "string",
+              "description": "",
+              "example_value": "https://soundcloud.com/vghc3eihbsdq/sets/almost-lover"
+            }
+          },
+          "required": [
+            "playlist_url"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "song_info_for_soundcloud",
+        "description": "This is the subfunction for tool \"soundcloud\", you can use this tool.The description of this function is: \"Get basic information of a song.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "track_url": {
+              "type": "string",
+              "description": "",
+              "example_value": "https://soundcloud.com/user-977421934/the-phoenix"
+            }
+          },
+          "required": [
+            "track_url"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "charts_track_for_shazam",
+        "description": "This is the subfunction for tool \"shazam\", you can use this tool.The description of this function is: \"Get all popular songs in specific chart\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "albums_get_related_artist_for_shazam",
+        "description": "This is the subfunction for tool \"shazam\", you can use this tool.The description of this function is: \"Get artist related to an album\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "is_id": {
+              "type": "string",
+              "description": "The value of 'albums->id' field returned in .../shazam-songs/get-details OR .../artists/get-albums OR .../artists/get-summary\nThe value of 'id' field returned in .../artists/get-albums OR .../artists/get-latest-release endpoint\nThe value of 'albumadamid' f",
+              "example_value": "850569437"
+            },
+            "l": {
+              "type": "string",
+              "description": "The language code",
+              "example_value": "en-US"
+            }
+          },
+          "required": [
+            "is_id"
+          ],
+          "optional": [
+            "l"
+          ]
+        }
+      },
+      {
+        "name": "search_for_shazam",
+        "description": "This is the subfunction for tool \"shazam\", you can use this tool.The description of this function is: \"Search for songs, artists that match input term\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string",
+              "description": "Full name of songs or artists",
+              "example_value": "kiss the rain"
+            },
+            "locale": {
+              "type": "string",
+              "description": "The language code",
+              "example_value": "en-US"
+            },
+            "limit": {
+              "type": "integer",
+              "description": "For paging purpose, maximum is fixed at 5 items per response",
+              "example_value": "5"
+            },
+            "offset": {
+              "type": "integer",
+              "description": "For paging purpose",
+              "example_value": "0"
+            }
+          },
+          "required": [
+            "term"
+          ],
+          "optional": [
+            "locale",
+            "limit",
+            "offset"
+          ]
+        }
+      },
+      {
+        "name": "genre_for_deezer",
+        "description": "This is the subfunction for tool \"deezer\", you can use this tool.The description of this function is: \"A genre object\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "is_id": {
+              "type": "string",
+              "description": "The editorial's Deezer id"
+            }
+          },
+          "required": [
+            "is_id"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "artist_for_deezer",
+        "description": "This is the subfunction for tool \"deezer\", you can use this tool.The description of this function is: \"An artist object\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "is_id": {
+              "type": "string",
+              "description": "The artist's Deezer id"
+            }
+          },
+          "required": [
+            "is_id"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "search_for_deezer",
+        "description": "This is the subfunction for tool \"deezer\", you can use this tool.The description of this function is: \"Search tracks\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "q": {
+              "type": "string",
+              "description": "",
+              "example_value": "eminem"
+            }
+          },
+          "required": [
+            "q"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "Finish",
+        "description": "If you believe that you have obtained a result that can answer the task, please call this function to provide the final answer. Alternatively, if you recognize that you are unable to proceed with the task in the current state, call this function to restart. Remember: you must ALWAYS call this function at the end of your attempt, and the only part that will be shown to the user is the final answer, so it should contain sufficient information.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "return_type": {
+              "type": "string",
+              "enum": [
+                "give_answer",
+                "give_up_and_restart"
+              ]
+            },
+            "final_answer": {
+              "type": "string",
+              "description": "The final answer you want to give the user. You should have this field if \"return_type\"==\"give_answer\""
+            }
+          },
+          "required": [
+            "return_type"
+          ]
+        }
+      }
+    ],
+    "query_count": 9,
+    "total_tokens": 15237,
+    "train_messages": [],
+    "chain": [],
+    "query": "I'm organizing a family gathering and I want to create a playlist that caters to everyone's musical preferences. Can you suggest a diverse playlist with tracks from various genres? It would be helpful if you could provide information about the artists and their respective genres as well. I want to make sure everyone has a great time!"
+  }
+}

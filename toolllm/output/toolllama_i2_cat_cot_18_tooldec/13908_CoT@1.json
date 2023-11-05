@@ -1,0 +1,195 @@
+{
+  "win": false,
+  "try_count": 1,
+  "trys": [
+    {
+      "chain": [
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 1,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 2,
+          "node_type": "Action",
+          "description": "email_exist_for_email_checkup",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 3,
+          "node_type": "Action Input",
+          "description": "{\n  \"email\": \"chicken\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'message': \\\"API doesn't exists\\\"}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 4,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 5,
+          "node_type": "Action",
+          "description": "Finish",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": true,
+          "finished": false,
+          "depth": 6,
+          "node_type": "Action Input",
+          "description": "{\n  \"return_type\": \"give_up_and_restart\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"response\":\"chose to give up and restart\"}",
+          "observation_code": 4,
+          "child_count": 0,
+          "expand_num": 0,
+          "io_state": {}
+        }
+      ],
+      "win": false
+    }
+  ],
+  "compare_candidates": [],
+  "forward_args": {
+    "single_chain_max_step": 18,
+    "pass_at": 1,
+    "answer": 1
+  },
+  "answer_generation": {
+    "valid_data": false,
+    "final_answer": "",
+    "function": [
+      {
+        "name": "email_exist_for_email_checkup",
+        "description": "This is the subfunction for tool \"email_checkup\", you can use this tool.The description of this function is: \"help you to check if email really exist.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "email": {
+              "type": "string",
+              "description": "",
+              "example_value": "test@email.com"
+            }
+          },
+          "required": [
+            "email"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "email_format_for_email_checkup",
+        "description": "This is the subfunction for tool \"email_checkup\", you can use this tool.The description of this function is: \"Help you to validate email format.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "email": {
+              "type": "string",
+              "description": "",
+              "example_value": "test@yahoo.com"
+            }
+          },
+          "required": [
+            "email"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "short_urls_code_for_url_shortener",
+        "description": "This is the subfunction for tool \"url_shortener\", you can use this tool.The description of this function is: \"Shows information about a short link code.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "code": {
+              "type": "string",
+              "description": "",
+              "example_value": "U1hAI"
+            }
+          },
+          "required": [
+            "code"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "short_urls_code_visits_for_url_shortener",
+        "description": "This is the subfunction for tool \"url_shortener\", you can use this tool.The description of this function is: \"Shows clicks, referer, etc. for a specific short link.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "code": {
+              "type": "string",
+              "description": "",
+              "example_value": "j95Aj"
+            }
+          },
+          "required": [
+            "code"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "Finish",
+        "description": "If you believe that you have obtained a result that can answer the task, please call this function to provide the final answer. Alternatively, if you recognize that you are unable to proceed with the task in the current state, call this function to restart. Remember: you must ALWAYS call this function at the end of your attempt, and the only part that will be shown to the user is the final answer, so it should contain sufficient information.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "return_type": {
+              "type": "string",
+              "enum": [
+                "give_answer",
+                "give_up_and_restart"
+              ]
+            },
+            "final_answer": {
+              "type": "string",
+              "description": "The final answer you want to give the user. You should have this field if \"return_type\"==\"give_answer\""
+            }
+          },
+          "required": [
+            "return_type"
+          ]
+        }
+      }
+    ],
+    "query_count": 2,
+    "total_tokens": 6,
+    "train_messages": [],
+    "chain": [],
+    "query": "I'm planning to surprise my family with a delicious homemade dinner and I need your help in finding the perfect recipes. Can you suggest a recipe that includes chicken as one of the ingredients? Additionally, I would like a recipe for a dessert that pairs well with the main dish."
+  }
+}

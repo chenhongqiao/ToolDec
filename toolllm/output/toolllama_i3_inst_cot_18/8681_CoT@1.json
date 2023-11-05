@@ -1,0 +1,422 @@
+{
+  "win": false,
+  "try_count": 1,
+  "trys": [
+    {
+      "chain": [
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 1,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 2,
+          "node_type": "Action",
+          "description": "webcams_list_category_category_category_for_webcams_travel",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 3,
+          "node_type": "Action Input",
+          "description": "{\n  \"category\": \"sunset\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'status': 'OK', 'result': {'offset': 0, 'limit': 10, 'total': 0, 'webcams': []}}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 4,
+          "node_type": "Thought",
+          "description": "webcams_list_category_category_category_for_webcams_travel\nAction Input: {\n  \"category\": \"sunset\"\n",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 5,
+          "node_type": "Action",
+          "description": "webcams_list_category_category_category_for_webcams_travel",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 6,
+          "node_type": "Action Input",
+          "description": "{\n  \"category\": \"sunset\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'status': 'OK', 'result': {'offset': 0, 'limit': 10, 'total': 0, 'webcams': []}}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 7,
+          "node_type": "Thought",
+          "description": "lewithfrenchlabels_for_maptiles\nAction Input: {\n  \"x\": 0,\n  \"y\": 0,\n  \"z\": 10\n",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 8,
+          "node_type": "Action",
+          "description": "ilewithfrenchlabels_for_maptiles",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 9,
+          "node_type": "Action Input",
+          "description": "{\n  \"x\": 0,\n  \"y\": 0,\n  \"z\": 10\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 10,
+          "node_type": "Thought",
+          "description": "getmaptilewithfrenchlabels_for_maptiles\nAction Input: {\n  \"x\": 0,\n  \"y\": 0,\n  \"z\": 10\n",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 11,
+          "node_type": "Action",
+          "description": "getmaptilewithfrenchlabels_for_maptiles",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 12,
+          "node_type": "Action Input",
+          "description": "{\n  \"x\": 0,\n  \"y\": 0,\n  \"z\": 10\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"request invalid, data error. status_code=500\", \"response\": \"\"}",
+          "observation_code": 12,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 13,
+          "node_type": "Thought",
+          "description": "Finish\nAction Input: {\n  \"return_type\": \"give_up_and_restart\"\n",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 14,
+          "node_type": "Action",
+          "description": "Finish",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": true,
+          "finished": false,
+          "depth": 15,
+          "node_type": "Action Input",
+          "description": "{\n  \"return_type\": \"give_up_and_restart\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"response\":\"chose to give up and restart\"}",
+          "observation_code": 4,
+          "child_count": 0,
+          "expand_num": 0,
+          "io_state": {}
+        }
+      ],
+      "win": false
+    }
+  ],
+  "compare_candidates": [],
+  "forward_args": {
+    "single_chain_max_step": 18,
+    "pass_at": 1,
+    "answer": 1
+  },
+  "answer_generation": {
+    "valid_data": false,
+    "final_answer": "",
+    "function": [
+      {
+        "name": "webcams_list_limit_limit_offset_for_webcams_travel",
+        "description": "This is the subfunction for tool \"webcams_travel\", you can use this tool.The description of this function is: \"This is a modifier. Returns the list of webcams sliced by {limit}. The optional offset is given by {offset}. Required: {limit}. The maximum value for {limit} is 50. {offset} defaults to 0. If limit is not given, then a default of limit=10 is applied.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "limit": {
+              "type": "integer",
+              "description": "Maximum number of webcams in the result list."
+            },
+            "offset": {
+              "type": "integer",
+              "description": "Offset for the first item in the result list.",
+              "example_value": "0"
+            },
+            "lang": {
+              "type": "string",
+              "description": "Localize the results to this language, if available. Default: \"en\".",
+              "example_value": "en"
+            },
+            "show": {
+              "type": "string",
+              "description": "Content to be listed in the response. Possible values are: \"webcams\", \"categories\", \"continents\", \"countries\", \"regions\", \"properties\". Default is \"webcams\".",
+              "example_value": "webcams:image,location"
+            }
+          },
+          "required": [
+            "limit"
+          ],
+          "optional": [
+            "offset",
+            "lang",
+            "show"
+          ]
+        }
+      },
+      {
+        "name": "webcams_list_category_category_category_for_webcams_travel",
+        "description": "This is the subfunction for tool \"webcams_travel\", you can use this tool.The description of this function is: \"This is a modifier. Returns a list of webcams according to the listed categories. Multiple categories must be separated by comma. Required: at least one {category}.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "category": {
+              "type": "string",
+              "description": "Comma separated list of category names."
+            },
+            "lang": {
+              "type": "string",
+              "description": "Localize the results to this language, if available. Default: \"en\".",
+              "example_value": "en"
+            },
+            "show": {
+              "type": "string",
+              "description": "Content to be listed in the response. Possible values are: \"webcams\", \"categories\", \"continents\", \"countries\", \"regions\", \"properties\". Default is \"webcams\".",
+              "example_value": "webcams:image,location"
+            }
+          },
+          "required": [
+            "category"
+          ],
+          "optional": [
+            "lang",
+            "show"
+          ]
+        }
+      },
+      {
+        "name": "webcams_list_orderby_order_sort_for_webcams_travel",
+        "description": "This is the subfunction for tool \"webcams_travel\", you can use this tool.The description of this function is: \"This is a modifier. Returns the list of webcams ordered by {order}. The optional sorting direction is given by {sort}. Required {order}.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "sort": {
+              "type": "string",
+              "description": "Possible values are: \"asc\" (ascending), or \"desc\" (descending)."
+            },
+            "order": {
+              "type": "string",
+              "description": "Possible values are: \"popularity\" (default order: \"desc\"), \"hotness\" (default order: \"desc\"), \"new\" (default order: \"desc\"), \"recent\" (default order: \"desc\"), \"random\" (default order: \"asc\"), or \"distance\" (default order: \"asc\", only available if the modif"
+            },
+            "lang": {
+              "type": "string",
+              "description": "Localize the results to this language, if available. Default: \"en\".",
+              "example_value": "en"
+            },
+            "show": {
+              "type": "string",
+              "description": "Content to be listed in the response. Possible values are: \"webcams\", \"categories\", \"continents\", \"countries\", \"regions\", \"properties\". Default is \"webcams\".",
+              "example_value": "webcams:image,location"
+            }
+          },
+          "required": [
+            "sort",
+            "order"
+          ],
+          "optional": [
+            "lang",
+            "show"
+          ]
+        }
+      },
+      {
+        "name": "getstandardmaptile_for_maptiles",
+        "description": "This is the subfunction for tool \"maptiles\", you can use this tool.The description of this function is: \"Standard tiles with labels in local language for a place (untranslated and untransliterated) as known from OpenStreetMap\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "y": {
+              "type": "integer",
+              "description": "Y-number of tile (see documentation)",
+              "example_value": "3"
+            },
+            "x": {
+              "type": "integer",
+              "description": "X-number of tile (see documentation)",
+              "example_value": "6"
+            },
+            "z": {
+              "type": "integer",
+              "description": "zoom (from 0 up to zoom 19)",
+              "example_value": "3"
+            }
+          },
+          "required": [
+            "y",
+            "x",
+            "z"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "getmaptilewithenglishlabels_for_maptiles",
+        "description": "This is the subfunction for tool \"maptiles\", you can use this tool.The description of this function is: \"Raster Map Tiles with English Labels. Please see our [tutorials page](https://rapidapi.com/MapTilesApi/api/maptiles/tutorials) on how to use this.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "x": {
+              "type": "integer",
+              "description": "X-number of tile (see documentation)",
+              "example_value": "6"
+            },
+            "z": {
+              "type": "integer",
+              "description": "zoom (from 0 up to zoom 19)",
+              "example_value": "3"
+            },
+            "y": {
+              "type": "integer",
+              "description": "Y-number of tile (see documentation)",
+              "example_value": "3"
+            }
+          },
+          "required": [
+            "x",
+            "z",
+            "y"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "getmaptilewithfrenchlabels_for_maptiles",
+        "description": "This is the subfunction for tool \"maptiles\", you can use this tool.The description of this function is: \"Raster Map Tiles with French Labels\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "x": {
+              "type": "integer",
+              "description": "X-number of tile (see documentation)",
+              "example_value": "8"
+            },
+            "y": {
+              "type": "integer",
+              "description": "Y-number of tile (see documentation)",
+              "example_value": "5"
+            },
+            "z": {
+              "type": "integer",
+              "description": "zoom (from 0 up to zoom 19)",
+              "example_value": "4"
+            }
+          },
+          "required": [
+            "x",
+            "y",
+            "z"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "Finish",
+        "description": "If you believe that you have obtained a result that can answer the task, please call this function to provide the final answer. Alternatively, if you recognize that you are unable to proceed with the task in the current state, call this function to restart. Remember: you must ALWAYS call this function at the end of your attempt, and the only part that will be shown to the user is the final answer, so it should contain sufficient information.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "return_type": {
+              "type": "string",
+              "enum": [
+                "give_answer",
+                "give_up_and_restart"
+              ]
+            },
+            "final_answer": {
+              "type": "string",
+              "description": "The final answer you want to give the user. You should have this field if \"return_type\"==\"give_answer\""
+            }
+          },
+          "required": [
+            "return_type"
+          ]
+        }
+      }
+    ],
+    "query_count": 5,
+    "total_tokens": 15,
+    "train_messages": [],
+    "chain": [],
+    "query": "I'm a photographer and I'm searching for webcams that capture breathtaking sunsets. Can you recommend some webcams in coastal areas known for their stunning sunset views? Additionally, I would like to see a map tile with French labels to inspire my photography."
+  }
+}

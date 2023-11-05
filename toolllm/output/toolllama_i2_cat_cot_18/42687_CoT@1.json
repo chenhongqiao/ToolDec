@@ -1,0 +1,400 @@
+{
+  "win": false,
+  "try_count": 1,
+  "trys": [
+    {
+      "chain": [
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 1,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 2,
+          "node_type": "Action",
+          "description": "check_a_url_for_exerra_phishing_check",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 3,
+          "node_type": "Action Input",
+          "description": "{\n  \"url\": \"examplelink.com\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'status': 200, 'data': {'isScam': False, 'domain': 'exerra-phishing-check.p.rapidapi.com', 'detection': {'type': 'domain'}}}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 4,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 5,
+          "node_type": "Action",
+          "description": "check_a_url_for_exerra_phishing_check",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 6,
+          "node_type": "Action Input",
+          "description": "{\n  \"url\": \"examplelink.com\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{'status': 200, 'data': {'isScam': False, 'domain': 'exerra-phishing-check.p.rapidapi.com', 'detection': {'type': 'domain'}}}\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 7,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 8,
+          "node_type": "Action",
+          "description": "get_random_quotes_for_famous_quotes",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 9,
+          "node_type": "Action Input",
+          "description": "{\n  \"count\": 5,\n  \"category\": \"cybersecurity\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"[]\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 10,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 11,
+          "node_type": "Action",
+          "description": "get_random_quotes_for_famous_quotes",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 12,
+          "node_type": "Action Input",
+          "description": "{\n  \"count\": 5,\n  \"category\": \"cybersecurity\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"[]\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 13,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 14,
+          "node_type": "Action",
+          "description": "get_random_quotes_for_famous_quotes",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 15,
+          "node_type": "Action Input",
+          "description": "{\n  \"count\": 5,\n  \"category\": \"cybersecurity\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"[]\"}",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 16,
+          "node_type": "Thought",
+          "description": "",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 17,
+          "node_type": "Action",
+          "description": "get_random_quotes_for_famous_quotes",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": true,
+          "finished": false,
+          "depth": 18,
+          "node_type": "Action Input",
+          "description": "{\n  \"count\": 5,\n  \"category\": \"cybersecurity\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"[]\"}",
+          "observation_code": 0,
+          "child_count": 0,
+          "expand_num": 0,
+          "io_state": {}
+        }
+      ],
+      "win": false
+    }
+  ],
+  "compare_candidates": [],
+  "forward_args": {
+    "single_chain_max_step": 18,
+    "pass_at": 1,
+    "answer": 1
+  },
+  "answer_generation": {
+    "valid_data": false,
+    "final_answer": "",
+    "function": [
+      {
+        "name": "languages_for_hackerrank",
+        "description": "This is the subfunction for tool \"hackerrank\", you can use this tool.The description of this function is: \"This method provides you with information regarding the language codes which our code checker supports\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "get_stats_for_exerra_phishing_check",
+        "description": "This is the subfunction for tool \"exerra_phishing_check\", you can use this tool.The description of this function is: \"Get statistics about the Exerra Phishing API\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "check_a_url_for_exerra_phishing_check",
+        "description": "This is the subfunction for tool \"exerra_phishing_check\", you can use this tool.The description of this function is: \"Check if a URL is a known phishing attempt\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "url": {
+              "type": "string",
+              "description": "This is the URL that the API will check.\nMust be a valid HTTP(s) URL or it will throw a 400",
+              "example_value": "https://exerra.xyz"
+            }
+          },
+          "required": [
+            "url"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "get_all_for_exerra_phishing_check",
+        "description": "This is the subfunction for tool \"exerra_phishing_check\", you can use this tool.The description of this function is: \"get_all_for_exerra_phishing_check domains (or links) associated with phishing attempts. The response is very large (>\u224813MB), so it is preferred to use \"Check a link\". \n\nDue to the large response size (and processing) this endpoint is paid.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string",
+              "description": ""
+            }
+          },
+          "required": [
+            "type"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "d_die_for_utile_space",
+        "description": "This is the subfunction for tool \"utile_space\", you can use this tool.The description of this function is: \"Roll a die with n faces. With n between 2 and 100.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "die": {
+              "type": "integer",
+              "description": ""
+            }
+          },
+          "required": [
+            "die"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "dns_domain_for_utile_space",
+        "description": "This is the subfunction for tool \"utile_space\", you can use this tool.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "domain": {
+              "type": "string",
+              "description": ""
+            }
+          },
+          "required": [
+            "domain"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "health_for_utile_space",
+        "description": "This is the subfunction for tool \"utile_space\", you can use this tool.The description of this function is: \"API health information.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "get_random_quotes_for_famous_quotes",
+        "description": "This is the subfunction for tool \"famous_quotes\", you can use this tool.The description of this function is: \"Get multiple random quotes from chosen category or send **all** to get results from multiple categories.\nYou can view all categories on the Category endpoint\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "count": {
+              "type": "integer",
+              "description": "",
+              "example_value": "2"
+            },
+            "category": {
+              "type": "string",
+              "description": "",
+              "example_value": "all"
+            }
+          },
+          "required": [
+            "count",
+            "category"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "list_categories_for_famous_quotes",
+        "description": "This is the subfunction for tool \"famous_quotes\", you can use this tool.The description of this function is: \"List all available categories\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "Finish",
+        "description": "If you believe that you have obtained a result that can answer the task, please call this function to provide the final answer. Alternatively, if you recognize that you are unable to proceed with the task in the current state, call this function to restart. Remember: you must ALWAYS call this function at the end of your attempt, and the only part that will be shown to the user is the final answer, so it should contain sufficient information.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "return_type": {
+              "type": "string",
+              "enum": [
+                "give_answer",
+                "give_up_and_restart"
+              ]
+            },
+            "final_answer": {
+              "type": "string",
+              "description": "The final answer you want to give the user. You should have this field if \"return_type\"==\"give_answer\""
+            }
+          },
+          "required": [
+            "return_type"
+          ]
+        }
+      }
+    ],
+    "query_count": 6,
+    "total_tokens": 18,
+    "train_messages": [],
+    "chain": [],
+    "query": "My friend recently received a suspicious email with a link. Can you verify if the link is a phishing attempt? The link is examplelink.com. Also, it would be great if you could provide some famous quotes related to cybersecurity."
+  }
+}

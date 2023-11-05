@@ -1,0 +1,525 @@
+{
+  "win": true,
+  "try_count": 1,
+  "trys": [
+    {
+      "chain": [
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 1,
+          "node_type": "Action",
+          "description": "title_similars_for_netflix_v2",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 2,
+          "node_type": "Action Input",
+          "description": "{\n  \"is_id\": \"80057281\",\n  \"limit\": 10\n}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"[{'id': '80100172', 'details': {'availability': {'isPlayable': True, 'availabilityDate': 'December 1', 'availabilityStartTime': 1512115200000, 'unplayableCause': None}, 'contextualSynopsis': {'text': 'A missing child sets four families on a frantic hunt for answers as they unearth a mind-bending mystery that spans three generations.', 'evidenceKey': 'web_synopsis|80100172_INFORMATIVE|en|_IFD_'}, 'delivery': {'has3D': False, 'hasHD': True, 'hasUltraHD': False, 'hasHDR': False, 'hasDolbyVision': False, 'hasDolbyAtmos': False, 'has51Audio': True, 'quality': 'HD'}, 'inRemindMeList': False, 'numSeasonsLabel': '3 Seasons', 'queue': {'available': True, 'inQueue': False}, 'releaseYear': 2020, 'seasonCount': 3, 'summary': {'type': 'show', 'id': 80100172, 'isOriginal': True}, 'title': 'Dark', 'userRating': {'type': 'thumb', 'userRating': 0, 'tooNewForMatchScore': False, 'reactionUserRating': 'THUMBS_UNRATED'}, 'userRatingRequestId': 'e9b098d4-f2d1-4c2c-94f3-94184c61b21c-119331670', 'maturity'...",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 3,
+          "node_type": "Action",
+          "description": "ly_top_100_music_torrents_for_movie_tv_music_search_and_download",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 4,
+          "node_type": "Action Input",
+          "description": "{}",
+          "Elo": 1000.0,
+          "observation": "{\"error\": \"\", \"response\": \"{\\\"code\\\":\\\"200\\\",\\\"result\\\":[{\\\"title\\\":\\\"Kelly Clarkson - Chemistry (2023) Mp3 320kbps [PMEDIA] \\u2b50\\ufe0f\\\",\\\"torrent\\\":\\\"https://itorrents.org/torrent/EEA18EC4B36C8DA2F9CB506C8CE67CCC50F671C9.torrent\\\",\\\"size\\\":\\\"107.17 MB\\\",\\\"rate\\\":6},{\\\"title\\\":\\\"Foo Fighters - But Here We Are (2023) Mp3 320kbps [PMEDIA] \\u2b50\\ufe0f\\\",\\\"torrent\\\":\\\"https://itorrents.org/torrent/6E0D07BBE4E6B4973FDD524E847BF0A9721D4D6F.torrent\\\",\\\"size\\\":\\\"110.94 MB\\\",\\\"rate\\\":6},{\\\"title\\\":\\\"Queens Of The Stone Age - In Times New Roman (2023) Mp3 320kbps [PMEDIA] \\u2b50\\ufffd..\\\",\\\"torrent\\\":\\\"https://itorrents.org/torrent/2BF44B92578E6368DEF21E884E5CF7E01DAA652D.torrent\\\",\\\"size\\\":\\\"112.95 MB\\\",\\\"rate\\\":6},{\\\"title\\\":\\\"Kelly Clarkson - Chemistry (2023) [24Bit-44 1kHz] FLAC [PMEDIA] \\u2b50\\ufe0f\\\",\\\"torrent\\\":\\\"https://itorrents.org/torrent/448F474D759192735B992AA1BE2FE60B1127FE58.torrent\\\",\\\"size\\\":\\\"535.86 MB\\\",\\\"rate\\\":6},{\\\"title\\\":\\\"Eric Clapton - The Definitive 24 Nights (2023) [24Bit-48kHz] FLAC [PM...",
+          "observation_code": 0,
+          "child_count": 1,
+          "expand_num": 0,
+          "io_state": {}
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 5,
+          "node_type": "Thought",
+          "description": "I found some similar titles for the movie with ID '80057281'. One of the similar titles is 'Dark', a show with 3 seasons released in 2020. You can consider adding it to your movie marathon. \n\nAs for the monthly top 100 music torrents, here are a few options:\n1. Kelly Clarkson - Chemistry (2023) Mp3 320kbps [PMEDIA]: [Torrent Link](https://itorrents.org/torrent/EEA18EC4B36C8DA2F9CB506C8CE67CCC50F671C9.torrent), Size: 107.17 MB, Rate: 6\n2. Foo Fighters - But Here We Are (2023) Mp3 320kbps [PMEDIA]: [Torrent Link](https://itorrents.org/torrent/6E0D07BBE4E6B4973FDD524E847BF0A9721D4D6F.torrent), Size: 110.94 MB, Rate: 6\n3. Queens Of The Stone Age - In Times New Roman (2023) Mp3 320kbps [PMEDIA]: [Torrent Link](https://itorrents.org/torrent/2BF44B92578E6368DEF21E884E5CF7E01DAA652D.torrent), Size: 112.95 MB, Rate: 6\n\nFeel free to explore these music torrents for your movie marathon. Let me know if there's anything else I can assist you with!",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 6,
+          "node_type": "Action",
+          "description": "Finish",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 7,
+          "node_type": "Action Input",
+          "description": "{\n  \"return_type\": \"give_answer\",\n  \"final_answer\": \"For the movie with ID '80057281', some similar titles are 'Dark' with 3 seasons released in 2020. For the monthly top 100 music torrents, some options are 'Kelly Clarkson - Chemistry', 'Foo Fighters - But Here We Are', and 'Queens Of The Stone Age - In Times New Roman'. You can find the torrents using the provided links. Enjoy your movie marathon!\"\n}",
+          "Elo": 1000.0,
+          "observation": "{\"response\":\"successfully giving the final answer.\"}",
+          "observation_code": 3,
+          "child_count": 0,
+          "expand_num": 0,
+          "io_state": {}
+        }
+      ],
+      "win": false
+    }
+  ],
+  "compare_candidates": [
+    [
+      {
+        "is_terminal": false,
+        "pruned": false,
+        "finished": false,
+        "depth": 1,
+        "node_type": "Action",
+        "description": "title_similars_for_netflix_v2",
+        "Elo": 1000.0,
+        "child_count": 1,
+        "expand_num": 0
+      },
+      {
+        "is_terminal": false,
+        "pruned": false,
+        "finished": false,
+        "depth": 2,
+        "node_type": "Action Input",
+        "description": "{\n  \"is_id\": \"80057281\",\n  \"limit\": 10\n}",
+        "Elo": 1000.0,
+        "observation": "{\"error\": \"\", \"response\": \"[{'id': '80100172', 'details': {'availability': {'isPlayable': True, 'availabilityDate': 'December 1', 'availabilityStartTime': 1512115200000, 'unplayableCause': None}, 'contextualSynopsis': {'text': 'A missing child sets four families on a frantic hunt for answers as they unearth a mind-bending mystery that spans three generations.', 'evidenceKey': 'web_synopsis|80100172_INFORMATIVE|en|_IFD_'}, 'delivery': {'has3D': False, 'hasHD': True, 'hasUltraHD': False, 'hasHDR': False, 'hasDolbyVision': False, 'hasDolbyAtmos': False, 'has51Audio': True, 'quality': 'HD'}, 'inRemindMeList': False, 'numSeasonsLabel': '3 Seasons', 'queue': {'available': True, 'inQueue': False}, 'releaseYear': 2020, 'seasonCount': 3, 'summary': {'type': 'show', 'id': 80100172, 'isOriginal': True}, 'title': 'Dark', 'userRating': {'type': 'thumb', 'userRating': 0, 'tooNewForMatchScore': False, 'reactionUserRating': 'THUMBS_UNRATED'}, 'userRatingRequestId': 'e9b098d4-f2d1-4c2c-94f3-94184c61b21c-119331670', 'maturity'...",
+        "observation_code": 0,
+        "child_count": 1,
+        "expand_num": 0,
+        "io_state": {}
+      },
+      {
+        "is_terminal": false,
+        "pruned": false,
+        "finished": false,
+        "depth": 3,
+        "node_type": "Action",
+        "description": "ly_top_100_music_torrents_for_movie_tv_music_search_and_download",
+        "Elo": 1000.0,
+        "child_count": 1,
+        "expand_num": 0
+      },
+      {
+        "is_terminal": false,
+        "pruned": false,
+        "finished": false,
+        "depth": 4,
+        "node_type": "Action Input",
+        "description": "{}",
+        "Elo": 1000.0,
+        "observation": "{\"error\": \"\", \"response\": \"{\\\"code\\\":\\\"200\\\",\\\"result\\\":[{\\\"title\\\":\\\"Kelly Clarkson - Chemistry (2023) Mp3 320kbps [PMEDIA] \\u2b50\\ufe0f\\\",\\\"torrent\\\":\\\"https://itorrents.org/torrent/EEA18EC4B36C8DA2F9CB506C8CE67CCC50F671C9.torrent\\\",\\\"size\\\":\\\"107.17 MB\\\",\\\"rate\\\":6},{\\\"title\\\":\\\"Foo Fighters - But Here We Are (2023) Mp3 320kbps [PMEDIA] \\u2b50\\ufe0f\\\",\\\"torrent\\\":\\\"https://itorrents.org/torrent/6E0D07BBE4E6B4973FDD524E847BF0A9721D4D6F.torrent\\\",\\\"size\\\":\\\"110.94 MB\\\",\\\"rate\\\":6},{\\\"title\\\":\\\"Queens Of The Stone Age - In Times New Roman (2023) Mp3 320kbps [PMEDIA] \\u2b50\\ufffd..\\\",\\\"torrent\\\":\\\"https://itorrents.org/torrent/2BF44B92578E6368DEF21E884E5CF7E01DAA652D.torrent\\\",\\\"size\\\":\\\"112.95 MB\\\",\\\"rate\\\":6},{\\\"title\\\":\\\"Kelly Clarkson - Chemistry (2023) [24Bit-44 1kHz] FLAC [PMEDIA] \\u2b50\\ufe0f\\\",\\\"torrent\\\":\\\"https://itorrents.org/torrent/448F474D759192735B992AA1BE2FE60B1127FE58.torrent\\\",\\\"size\\\":\\\"535.86 MB\\\",\\\"rate\\\":6},{\\\"title\\\":\\\"Eric Clapton - The Definitive 24 Nights (2023) [24Bit-48kHz] FLAC [PM...",
+        "observation_code": 0,
+        "child_count": 1,
+        "expand_num": 0,
+        "io_state": {}
+      },
+      {
+        "is_terminal": false,
+        "pruned": false,
+        "finished": false,
+        "depth": 5,
+        "node_type": "Thought",
+        "description": "I found some similar titles for the movie with ID '80057281'. One of the similar titles is 'Dark', a show with 3 seasons released in 2020. You can consider adding it to your movie marathon. \n\nAs for the monthly top 100 music torrents, here are a few options:\n1. Kelly Clarkson - Chemistry (2023) Mp3 320kbps [PMEDIA]: [Torrent Link](https://itorrents.org/torrent/EEA18EC4B36C8DA2F9CB506C8CE67CCC50F671C9.torrent), Size: 107.17 MB, Rate: 6\n2. Foo Fighters - But Here We Are (2023) Mp3 320kbps [PMEDIA]: [Torrent Link](https://itorrents.org/torrent/6E0D07BBE4E6B4973FDD524E847BF0A9721D4D6F.torrent), Size: 110.94 MB, Rate: 6\n3. Queens Of The Stone Age - In Times New Roman (2023) Mp3 320kbps [PMEDIA]: [Torrent Link](https://itorrents.org/torrent/2BF44B92578E6368DEF21E884E5CF7E01DAA652D.torrent), Size: 112.95 MB, Rate: 6\n\nFeel free to explore these music torrents for your movie marathon. Let me know if there's anything else I can assist you with!",
+        "Elo": 1000.0,
+        "child_count": 1,
+        "expand_num": 0
+      },
+      {
+        "is_terminal": false,
+        "pruned": false,
+        "finished": false,
+        "depth": 6,
+        "node_type": "Action",
+        "description": "Finish",
+        "Elo": 1000.0,
+        "child_count": 1,
+        "expand_num": 0
+      },
+      {
+        "is_terminal": false,
+        "pruned": false,
+        "finished": false,
+        "depth": 7,
+        "node_type": "Action Input",
+        "description": "{\n  \"return_type\": \"give_answer\",\n  \"final_answer\": \"For the movie with ID '80057281', some similar titles are 'Dark' with 3 seasons released in 2020. For the monthly top 100 music torrents, some options are 'Kelly Clarkson - Chemistry', 'Foo Fighters - But Here We Are', and 'Queens Of The Stone Age - In Times New Roman'. You can find the torrents using the provided links. Enjoy your movie marathon!\"\n}",
+        "Elo": 1000.0,
+        "observation": "{\"response\":\"successfully giving the final answer.\"}",
+        "observation_code": 3,
+        "child_count": 0,
+        "expand_num": 0,
+        "io_state": {}
+      }
+    ]
+  ],
+  "forward_args": {
+    "single_chain_max_step": 18,
+    "pass_at": 1,
+    "answer": 1
+  },
+  "answer_generation": {
+    "valid_data": true,
+    "final_answer": "{\n  \"return_type\": \"give_answer\",\n  \"final_answer\": \"For the movie with ID '80057281', some similar titles are 'Dark' with 3 seasons released in 2020. For the monthly top 100 music torrents, some options are 'Kelly Clarkson - Chemistry', 'Foo Fighters - But Here We Are', and 'Queens Of The Stone Age - In Times New Roman'. You can find the torrents using the provided links. Enjoy your movie marathon!\"\n}",
+    "function": [
+      {
+        "name": "ly_top_100_music_torrents_for_movie_tv_music_search_and_download",
+        "description": "This is the subfunction for tool \"movie_tv_music_search_and_download\", you can use this tool.The description of this function is: \"Monthly Top 100 Music Torrents\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "ly_top_100_games_torrents_for_movie_tv_music_search_and_download",
+        "description": "This is the subfunction for tool \"movie_tv_music_search_and_download\", you can use this tool.The description of this function is: \"Monthly Top 100 Games Torrents\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "y_top_100_movies_torrents_for_movie_tv_music_search_and_download",
+        "description": "This is the subfunction for tool \"movie_tv_music_search_and_download\", you can use this tool.The description of this function is: \"Monthly Top 100 Movies Torrents\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "get_quote_by_character_for_movie_and_tv_shows_quotes",
+        "description": "This is the subfunction for tool \"movie_and_tv_shows_quotes\", you can use this tool.The description of this function is: \"This end point will return back quotes delivered by the given character\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "character": {
+              "type": "string",
+              "description": "",
+              "example_value": "dorothy_gale"
+            }
+          },
+          "required": [
+            "character"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "get_quotes_by_actor_for_movie_and_tv_shows_quotes",
+        "description": "This is the subfunction for tool \"movie_and_tv_shows_quotes\", you can use this tool.The description of this function is: \"This endpoint will return back quotes by the given actor or actress.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "actor": {
+              "type": "string",
+              "description": "",
+              "example_value": "al_pachino"
+            }
+          },
+          "required": [
+            "actor"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "get_quote_by_year_for_movie_and_tv_shows_quotes",
+        "description": "This is the subfunction for tool \"movie_and_tv_shows_quotes\", you can use this tool.The description of this function is: \"This endpoint will return back quotes by the given year\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "year": {
+              "type": "integer",
+              "description": "",
+              "example_value": "1939"
+            }
+          },
+          "required": [
+            "year"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "title_similars_for_netflix_v2",
+        "description": "This is the subfunction for tool \"netflix_v2\", you can use this tool.The description of this function is: \"title_similars_for_netflix_v2\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "is_id": {
+              "type": "string",
+              "description": "Title ID",
+              "example_value": "80057281"
+            },
+            "limit": {
+              "type": "integer",
+              "description": "Title Limit",
+              "example_value": "25"
+            },
+            "lang": {
+              "type": "string",
+              "description": "",
+              "example_value": "en"
+            },
+            "offset": {
+              "type": "integer",
+              "description": "Offset",
+              "example_value": "0"
+            }
+          },
+          "required": [
+            "is_id"
+          ],
+          "optional": [
+            "limit",
+            "lang",
+            "offset"
+          ]
+        }
+      },
+      {
+        "name": "title_trailers_for_netflix_v2",
+        "description": "This is the subfunction for tool \"netflix_v2\", you can use this tool.The description of this function is: \"title_trailers_for_netflix_v2\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "is_id": {
+              "type": "string",
+              "description": "Title ID",
+              "example_value": "80057281"
+            },
+            "lang": {
+              "type": "string",
+              "description": "",
+              "example_value": "en"
+            },
+            "limit": {
+              "type": "integer",
+              "description": "Trailer Limit",
+              "example_value": "25"
+            },
+            "offset": {
+              "type": "integer",
+              "description": "Offset",
+              "example_value": "0"
+            }
+          },
+          "required": [
+            "is_id"
+          ],
+          "optional": [
+            "lang",
+            "limit",
+            "offset"
+          ]
+        }
+      },
+      {
+        "name": "title_seasons_for_netflix_v2",
+        "description": "This is the subfunction for tool \"netflix_v2\", you can use this tool.The description of this function is: \"title_seasons_for_netflix_v2\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "ids": {
+              "type": "string",
+              "description": "Title IDs (you can separate with commas)",
+              "example_value": "80057281"
+            },
+            "lang": {
+              "type": "string",
+              "description": "",
+              "example_value": "en"
+            },
+            "offset": {
+              "type": "integer",
+              "description": "Offset",
+              "example_value": "0"
+            },
+            "limit": {
+              "type": "integer",
+              "description": "Season Limit",
+              "example_value": "25"
+            }
+          },
+          "required": [
+            "ids"
+          ],
+          "optional": [
+            "lang",
+            "offset",
+            "limit"
+          ]
+        }
+      },
+      {
+        "name": "status_200_for_daily_ovrll_0822202140642",
+        "description": "This is the subfunction for tool \"daily_ovrll_0822202140642\", you can use this tool.The description of this function is: \"Testing\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "Finish",
+        "description": "If you believe that you have obtained a result that can answer the task, please call this function to provide the final answer. Alternatively, if you recognize that you are unable to proceed with the task in the current state, call this function to restart. Remember: you must ALWAYS call this function at the end of your attempt, and the only part that will be shown to the user is the final answer, so it should contain sufficient information.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "return_type": {
+              "type": "string",
+              "enum": [
+                "give_answer",
+                "give_up_and_restart"
+              ]
+            },
+            "final_answer": {
+              "type": "string",
+              "description": "The final answer you want to give the user. You should have this field if \"return_type\"==\"give_answer\""
+            }
+          },
+          "required": [
+            "return_type"
+          ]
+        }
+      }
+    ],
+    "query_count": 3,
+    "total_tokens": 5708,
+    "train_messages": [
+      [
+        {
+          "role": "system",
+          "content": "You are AutoGPT, you can use many tools(functions) to do the following task.\nFirst I will give you the task description, and your task start.\nAt each step, you need to give your thought to analyze the status now and what to do next, with a function call to actually excute your step.\nAfter the call, you will get the call result, and you are now in a new state.\nThen you will analyze your status now, then decide what to do next...\nAfter many (Thought-call) pairs, you finally perform the task, then you can give your finial answer.\nRemember: \n1.the state change is irreversible, you can't go back to one of the former state, if you want to restart the task, say \"I give up and restart\".\n2.All the thought is short, at most in 5 sentence.\n3.You can do more then one trys, so if your plan is to continusly try some conditions, you can do one of the conditions per try.\nLet's Begin!\nTask description: You should use functions to help handle the real time user querys. Remember:\n1.ALWAYS call \"Finish\" function at the end of the task. And the final answer should contain enough information to show to the user,If you can't handle the task, or you find that function calls always fail(the function is not valid now), use function Finish->give_up_and_restart.\n2.Do not use origin tool names, use only subfunctions' names.\nYou have access of the following tools:\n1.movie_tv_music_search_and_download: Get multiple downloadable torrent links by keyword search of movie, TV, and music titles with a rate value of 10 being the best.Download via uTorrent, BitTorrent and other clients\n2.movie_and_tv_shows_quotes: This API helps query for Famous Movies and TV shows quotes.\n3.netflix_v2: Netflix data API provides details, stats and information of TV shows, movies, series, documentaries and more.\n4.daily_ovrll_0822202140642: DAILY OVRLL 5r3xrdnx20210822130642667\n"
+        },
+        {
+          "role": "user",
+          "content": "\nI'm hosting a movie marathon with my friends and we want to watch some similar titles. Can you provide me with similar titles for the movie with the ID '80057281' using the Netflix_v2 tool? Additionally, fetch the monthly top 100 music torrents from the Movie, TV, music search and download tool.\nBegin!\n"
+        },
+        {
+          "role": "assistant",
+          "content": null,
+          "function_call": {
+            "name": "title_similars_for_netflix_v2",
+            "arguments": "{\n  \"is_id\": \"80057281\",\n  \"limit\": 10\n}"
+          }
+        }
+      ],
+      [
+        {
+          "role": "system",
+          "content": "You are AutoGPT, you can use many tools(functions) to do the following task.\nFirst I will give you the task description, and your task start.\nAt each step, you need to give your thought to analyze the status now and what to do next, with a function call to actually excute your step.\nAfter the call, you will get the call result, and you are now in a new state.\nThen you will analyze your status now, then decide what to do next...\nAfter many (Thought-call) pairs, you finally perform the task, then you can give your finial answer.\nRemember: \n1.the state change is irreversible, you can't go back to one of the former state, if you want to restart the task, say \"I give up and restart\".\n2.All the thought is short, at most in 5 sentence.\n3.You can do more then one trys, so if your plan is to continusly try some conditions, you can do one of the conditions per try.\nLet's Begin!\nTask description: You should use functions to help handle the real time user querys. Remember:\n1.ALWAYS call \"Finish\" function at the end of the task. And the final answer should contain enough information to show to the user,If you can't handle the task, or you find that function calls always fail(the function is not valid now), use function Finish->give_up_and_restart.\n2.Do not use origin tool names, use only subfunctions' names.\nYou have access of the following tools:\n1.movie_tv_music_search_and_download: Get multiple downloadable torrent links by keyword search of movie, TV, and music titles with a rate value of 10 being the best.Download via uTorrent, BitTorrent and other clients\n2.movie_and_tv_shows_quotes: This API helps query for Famous Movies and TV shows quotes.\n3.netflix_v2: Netflix data API provides details, stats and information of TV shows, movies, series, documentaries and more.\n4.daily_ovrll_0822202140642: DAILY OVRLL 5r3xrdnx20210822130642667\n"
+        },
+        {
+          "role": "user",
+          "content": "\nI'm hosting a movie marathon with my friends and we want to watch some similar titles. Can you provide me with similar titles for the movie with the ID '80057281' using the Netflix_v2 tool? Additionally, fetch the monthly top 100 music torrents from the Movie, TV, music search and download tool.\nBegin!\n"
+        },
+        {
+          "role": "assistant",
+          "content": null,
+          "function_call": {
+            "name": "title_similars_for_netflix_v2",
+            "arguments": "{\n  \"is_id\": \"80057281\",\n  \"limit\": 10\n}"
+          }
+        },
+        {
+          "role": "function",
+          "name": "title_similars_for_netflix_v2",
+          "content": "{\"error\": \"\", \"response\": \"[{'id': '80100172', 'details': {'availability': {'isPlayable': True, 'availabilityDate': 'December 1', 'availabilityStartTime': 1512115200000, 'unplayableCause': None}, 'contextualSynopsis': {'text': 'A missing child sets four families on a frantic hunt for answers as they unearth a mind-bending mystery that spans three generations.', 'evidenceKey': 'web_synopsis|80100172_INFORMATIVE|en|_IFD_'}, 'delivery': {'has3D': False, 'hasHD': True, 'hasUltraHD': False, 'hasHDR': False, 'hasDolbyVision': False, 'hasDolbyAtmos': False, 'has51Audio': True, 'quality': 'HD'}, 'inRemindMeList': False, 'numSeasonsLabel': '3 Seasons', 'queue': {'available': True, 'inQueue': False}, 'releaseYear': 2020, 'seasonCount': 3, 'summary': {'type': 'show', 'id': 80100172, 'isOriginal': True}, 'title': 'Dark', 'userRating': {'type': 'thumb', 'userRating': 0, 'tooNewForMatchScore': False, 'reactionUserRating': 'THUMBS_UNRATED'}, 'userRatingRequestId': 'e9b098d4-f2d1-4c2c-94f3-94184c61b21c-119331670', 'maturity'..."
+        },
+        {
+          "role": "assistant",
+          "content": null,
+          "function_call": {
+            "name": "ly_top_100_music_torrents_for_movie_tv_music_search_and_download",
+            "arguments": "{}"
+          }
+        }
+      ],
+      [
+        {
+          "role": "system",
+          "content": "You are AutoGPT, you can use many tools(functions) to do the following task.\nFirst I will give you the task description, and your task start.\nAt each step, you need to give your thought to analyze the status now and what to do next, with a function call to actually excute your step.\nAfter the call, you will get the call result, and you are now in a new state.\nThen you will analyze your status now, then decide what to do next...\nAfter many (Thought-call) pairs, you finally perform the task, then you can give your finial answer.\nRemember: \n1.the state change is irreversible, you can't go back to one of the former state, if you want to restart the task, say \"I give up and restart\".\n2.All the thought is short, at most in 5 sentence.\n3.You can do more then one trys, so if your plan is to continusly try some conditions, you can do one of the conditions per try.\nLet's Begin!\nTask description: You should use functions to help handle the real time user querys. Remember:\n1.ALWAYS call \"Finish\" function at the end of the task. And the final answer should contain enough information to show to the user,If you can't handle the task, or you find that function calls always fail(the function is not valid now), use function Finish->give_up_and_restart.\n2.Do not use origin tool names, use only subfunctions' names.\nYou have access of the following tools:\n1.movie_tv_music_search_and_download: Get multiple downloadable torrent links by keyword search of movie, TV, and music titles with a rate value of 10 being the best.Download via uTorrent, BitTorrent and other clients\n2.movie_and_tv_shows_quotes: This API helps query for Famous Movies and TV shows quotes.\n3.netflix_v2: Netflix data API provides details, stats and information of TV shows, movies, series, documentaries and more.\n4.daily_ovrll_0822202140642: DAILY OVRLL 5r3xrdnx20210822130642667\n"
+        },
+        {
+          "role": "user",
+          "content": "\nI'm hosting a movie marathon with my friends and we want to watch some similar titles. Can you provide me with similar titles for the movie with the ID '80057281' using the Netflix_v2 tool? Additionally, fetch the monthly top 100 music torrents from the Movie, TV, music search and download tool.\nBegin!\n"
+        },
+        {
+          "role": "assistant",
+          "content": null,
+          "function_call": {
+            "name": "title_similars_for_netflix_v2",
+            "arguments": "{\n  \"is_id\": \"80057281\",\n  \"limit\": 10\n}"
+          }
+        },
+        {
+          "role": "function",
+          "name": "title_similars_for_netflix_v2",
+          "content": "{\"error\": \"\", \"response\": \"[{'id': '80100172', 'details': {'availability': {'isPlayable': True, 'availabilityDate': 'December 1', 'availabilityStartTime': 1512115200000, 'unplayableCause': None}, 'contextualSynopsis': {'text': 'A missing child sets four families on a frantic hunt for answers as they unearth a mind-bending mystery that spans three generations.', 'evidenceKey': 'web_synopsis|80100172_INFORMATIVE|en|_IFD_'}, 'delivery': {'has3D': False, 'hasHD': True, 'hasUltraHD': False, 'hasHDR': False, 'hasDolbyVision': False, 'hasDolbyAtmos': False, 'has51Audio': True, 'quality': 'HD'}, 'inRemindMeList': False, 'numSeasonsLabel': '3 Seasons', 'queue': {'available': True, 'inQueue': False}, 'releaseYear': 2020, 'seasonCount': 3, 'summary': {'type': 'show', 'id': 80100172, 'isOriginal': True}, 'title': 'Dark', 'userRating': {'type': 'thumb', 'userRating': 0, 'tooNewForMatchScore': False, 'reactionUserRating': 'THUMBS_UNRATED'}, 'userRatingRequestId': 'e9b098d4-f2d1-4c2c-94f3-94184c61b21c-119331670', 'maturity'..."
+        },
+        {
+          "role": "assistant",
+          "content": null,
+          "function_call": {
+            "name": "ly_top_100_music_torrents_for_movie_tv_music_search_and_download",
+            "arguments": "{}"
+          }
+        },
+        {
+          "role": "function",
+          "name": "ly_top_100_music_torrents_for_movie_tv_music_search_and_download",
+          "content": "{\"error\": \"\", \"response\": \"{\\\"code\\\":\\\"200\\\",\\\"result\\\":[{\\\"title\\\":\\\"Kelly Clarkson - Chemistry (2023) Mp3 320kbps [PMEDIA] \\u2b50\\ufe0f\\\",\\\"torrent\\\":\\\"https://itorrents.org/torrent/EEA18EC4B36C8DA2F9CB506C8CE67CCC50F671C9.torrent\\\",\\\"size\\\":\\\"107.17 MB\\\",\\\"rate\\\":6},{\\\"title\\\":\\\"Foo Fighters - But Here We Are (2023) Mp3 320kbps [PMEDIA] \\u2b50\\ufe0f\\\",\\\"torrent\\\":\\\"https://itorrents.org/torrent/6E0D07BBE4E6B4973FDD524E847BF0A9721D4D6F.torrent\\\",\\\"size\\\":\\\"110.94 MB\\\",\\\"rate\\\":6},{\\\"title\\\":\\\"Queens Of The Stone Age - In Times New Roman (2023) Mp3 320kbps [PMEDIA] \\u2b50\\ufffd..\\\",\\\"torrent\\\":\\\"https://itorrents.org/torrent/2BF44B92578E6368DEF21E884E5CF7E01DAA652D.torrent\\\",\\\"size\\\":\\\"112.95 MB\\\",\\\"rate\\\":6},{\\\"title\\\":\\\"Kelly Clarkson - Chemistry (2023) [24Bit-44 1kHz] FLAC [PMEDIA] \\u2b50\\ufe0f\\\",\\\"torrent\\\":\\\"https://itorrents.org/torrent/448F474D759192735B992AA1BE2FE60B1127FE58.torrent\\\",\\\"size\\\":\\\"535.86 MB\\\",\\\"rate\\\":6},{\\\"title\\\":\\\"Eric Clapton - The Definitive 24 Nights (2023) [24Bit-48kHz] FLAC [PM..."
+        },
+        {
+          "role": "assistant",
+          "content": "I found some similar titles for the movie with ID '80057281'. One of the similar titles is 'Dark', a show with 3 seasons released in 2020. You can consider adding it to your movie marathon. \n\nAs for the monthly top 100 music torrents, here are a few options:\n1. Kelly Clarkson - Chemistry (2023) Mp3 320kbps [PMEDIA]: [Torrent Link](https://itorrents.org/torrent/EEA18EC4B36C8DA2F9CB506C8CE67CCC50F671C9.torrent), Size: 107.17 MB, Rate: 6\n2. Foo Fighters - But Here We Are (2023) Mp3 320kbps [PMEDIA]: [Torrent Link](https://itorrents.org/torrent/6E0D07BBE4E6B4973FDD524E847BF0A9721D4D6F.torrent), Size: 110.94 MB, Rate: 6\n3. Queens Of The Stone Age - In Times New Roman (2023) Mp3 320kbps [PMEDIA]: [Torrent Link](https://itorrents.org/torrent/2BF44B92578E6368DEF21E884E5CF7E01DAA652D.torrent), Size: 112.95 MB, Rate: 6\n\nFeel free to explore these music torrents for your movie marathon. Let me know if there's anything else I can assist you with!",
+          "function_call": {
+            "name": "Finish",
+            "arguments": "{\n  \"return_type\": \"give_answer\",\n  \"final_answer\": \"For the movie with ID '80057281', some similar titles are 'Dark' with 3 seasons released in 2020. For the monthly top 100 music torrents, some options are 'Kelly Clarkson - Chemistry', 'Foo Fighters - But Here We Are', and 'Queens Of The Stone Age - In Times New Roman'. You can find the torrents using the provided links. Enjoy your movie marathon!\"\n}"
+          }
+        }
+      ]
+    ],
+    "chain": [],
+    "query": "I'm hosting a movie marathon with my friends and we want to watch some similar titles. Can you provide me with similar titles for the movie with the ID '80057281' using the Netflix_v2 tool? Additionally, fetch the monthly top 100 music torrents from the Movie, TV, music search and download tool."
+  }
+}
