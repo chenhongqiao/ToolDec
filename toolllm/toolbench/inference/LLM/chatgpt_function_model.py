@@ -4,6 +4,7 @@ from tenacity import retry, wait_random_exponential, stop_after_attempt
 from termcolor import colored
 import time
 import random
+import copy
 
 
 @retry(wait=wait_random_exponential(min=1, max=40), stop=stop_after_attempt(3))
@@ -12,6 +13,9 @@ def chat_completion_request(key, messages, functions=None,function_call=None,key
     for message in messages:
         if not("valid" in message.keys() and message["valid"] == False):
             use_messages.append(message)
+            
+    no_cons_dec = copy.deepcopy(args)
+    del no_cons_dec["constrained_decoding"]
 
     json_data = {
         "model": model,
@@ -19,7 +23,7 @@ def chat_completion_request(key, messages, functions=None,function_call=None,key
         "max_tokens": 1024,
         "frequency_penalty": 0,
         "presence_penalty": 0,
-        **args
+        **no_cons_dec
     }
     if stop is not None:
         json_data.update({"stop": stop})
