@@ -44,7 +44,9 @@ class BaseEvaluator:
                             available_tools: List[Dict[Any, Any]],
                             answers:List[Dict],
                             multisample=False,
-                            sample_n=4) -> Union[List[int], int]:
+                            sample_n=4,
+                            task_status=None,
+                            answer_statuss=[None, None]) -> Union[List[int], int]:
         """Annotate and return the index of the preferred answer.
         
         For given query, available tools, and two answers, return the index of the preferred answer by calling function `fn_completions` of the evaluator.
@@ -85,7 +87,9 @@ class BaseEvaluator:
                     'query':query,
                     'available_tools':available_tools,
                 },
-                answers_projected
+                answers_projected,
+                task_status,
+                answer_statuss
             )
             if preferred_index in indexs:
                 return indexs.index(preferred_index)

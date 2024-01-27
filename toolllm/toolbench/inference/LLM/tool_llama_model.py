@@ -16,11 +16,19 @@ from toolbench.inference.utils import SimpleChatIO, generate_stream, react_parse
 
 
 class ToolLLaMA:
-    def __init__(self, model_name_or_path: str, template:str="tool-llama-single-round", device: str="cuda", cpu_offloading: bool=False) -> None:
+    def __init__(
+            self,
+            model_name_or_path: str,
+            template:str="tool-llama-single-round"
+            device: str="cuda",
+            cpu_offloading: bool=False,
+            max_sequence_length: int=8192
+        ) -> None:
         super().__init__()
         self.model_name = model_name_or_path
         self.template = template
-        self.tokenizer = AutoTokenizer.from_pretrained(model_name_or_path, use_fast=True, model_max_length=8192)
+        self.max_sequence_length = max_sequence_length
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name_or_path, use_fast=True, model_max_length=self.max_sequence_length)
         self.model = AutoModelForCausalLM.from_pretrained(
             model_name_or_path, low_cpu_mem_usage=True, device_map="auto"
         )
@@ -28,8 +36,8 @@ class ToolLLaMA:
             self.tokenizer.add_special_tokens({"bos_token": "<s>", "eos_token": "</s>", "pad_token": "<pad>"})
             self.model.resize_token_embeddings(len(self.tokenizer))
         self.use_gpu = (True if device == "cuda" else False)
-        #if (device == "cuda" and not cpu_offloading) or device == "mps":
-        #    self.model.to(device)
+        if (device == "cuda" and not cpu_offloading) or device == "mps":
+           self.model.to(device)
         self.chatio = SimpleChatIO()
 
     def prediction(self, prompt: str, stop: Optional[List[str]] = None, functions=None) -> str:
@@ -37,14 +45,14 @@ class ToolLLaMA:
             gen_params = {
                 "model": "",
                 "prompt": prompt,
-                "temperature": 0,
-                "max_new_tokens": 2048,
+                "temperature": 0.5,
+                "max_new_tokens": 512,
                 "stop": "</s>",
                 "stop_token_ids": None,
                 "echo": False
             }
             generate_stream_func = generate_stream
-            output_stream = generate_stream_func(self.model, self.tokenizer, gen_params, "cuda", 8192, force_generate=True, functions=functions)
+            output_stream = generate_stream_func(self.model, self.tokenizer, gen_params, "cuda", self.max_sequence_length, force_generate=True, functions=functions)
             outputs = self.chatio.return_output(output_stream)
             prediction = outputs.strip()
         
