@@ -16,6 +16,7 @@
 
 ```sh
 pip install -r requirements.txt
+pip install openai=0.28
 ```
 
 ```
@@ -56,6 +57,20 @@ python toolbench/inference/qa_pipeline.py \
     --max_observation_length 1024 \
     --method CoT@1 \
     --input_query_file "data/query/${TEST_SET}.json" \
+    --output_answer_file "data/output/chatgpt_${TEST_SET}_cot_18" \
+    --toolbench_key $TOOLBENCH_KEY
+```
+
+**New Command**
+
+```sh
+python toolbench/inference/qa_pipeline.py \
+    --tool_root_dir data/toolenv/tools/ \
+    --backbone_model chatgpt_function \
+    --openai_key $OPENAI_KEY \
+    --max_observation_length 1024 \
+    --method CoT@1 \
+    --input_query_file "data/test_instruction/G2_category.json" \
     --output_answer_file "data/output/chatgpt_${TEST_SET}_cot_18" \
     --toolbench_key $TOOLBENCH_KEY
 ```
